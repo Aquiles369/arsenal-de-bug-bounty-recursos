@@ -20,7 +20,7 @@ No es una simple colección de links: está organizado como una infraestructura 
 <br><br> 
 
 <p align="center">
- <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/demo_arsenal_bug_bounty.gif"/>
+ <img  height="420rem" alt="GIF" src="demo_arsenal_bug_bounty.gif"/>
 </p>
 
 <br>
