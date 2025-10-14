@@ -225,10 +225,10 @@ Plantillas informes<br>
 
 • <a href="https://chaos.projectdiscovery.io/" target="_blank" rel="noopener">Buscador de empresas</a>
 
-• <a href="https://radar.cloudflare.com/es-es/scan/10fe7a16-179f-4713-8ff7-e151a4ac0841/indicators" target="_blank" rel="noopener"> Cloudfare analisis</a>
+• <a href="https://www.youtube.com/watch?v=qL2gCXByqrU" target="_blank" rel="noopener"> Gonzalo Cabrera armar plantilla nucley</a>
 
 
-• <a href="https://www.youtube.com/watch?v=v9TvVRwDIPA" target="_blank" rel="noopener">Ekoparty Security Conference</a><br><br>
+• <a href="https://cloud.projectdiscovery.io/templates" target="_blank" rel="noopener">Plantilla Nuclei</a><br><br>
 
 
 <br>
