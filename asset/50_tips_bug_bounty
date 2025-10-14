@@ -1,0 +1,112 @@
+🚀 Las 50 principales técnicas de bug bounty que todo hacker debería conocer 🚀
+🧬 Manipulación y validación
+Manipulación de parámetros: altera valores enviados por el usuario.
+
+Pruebas de validación de entrada: detecta validaciones faltantes o débiles.
+
+Manipulación de encabezados: inyecta o modifica cabeceras HTTP.
+
+Alteración del estado de la sesión: manipula tokens o identificadores.
+
+Manipulación de firmas: cambia hashes, marcadores digitales o HMAC.
+
+Verificaciones de asignación masiva: inyecta campos inesperados.
+
+Fuzzing de carga útil: envía datos maliciosos, aleatorios o malformados.
+
+🔐 Autenticación y control de acceso
+Omisión del control de acceso: accede a recursos no autorizados.
+
+Verificaciones de reutilización de credenciales: prueba credenciales conocidas.
+
+Comprobaciones de fortaleza de tokens: fuerza tokens de baja entropía.
+
+Repetición de tokens: reenvía tokens válidos en otros contextos.
+
+Pruebas de límite de velocidad (Rate limiting): detecta ausencia o debilidad de restricciones.
+
+⚙️ Lógica de negocio y flujo
+Abuso del flujo de trabajo: explota lógica inapropiada o secuencias inseguras.
+
+Encadenamiento de flujo de trabajo: combina fallos menores en un ataque mayor.
+
+Abuso de paginación: solicita páginas fuera de rango o datos duplicados.
+
+Recorrido recursivo: fuerza referencias circulares o infinitas.
+
+Pruebas de concurrencia: desencadena condiciones de carrera.
+
+🧪 Exploración y descubrimiento
+Exploración de puntos finales: encuentra APIs ocultas o no documentadas.
+
+Descubrimiento de directorios: fuerza rutas comunes o sensibles.
+
+Enumeración de subdominios: identifica hosts y servicios disponibles.
+
+Huellas digitales del entorno: distingue entornos de staging, dev o producción.
+
+Descubrimiento de archivos de respaldo: detecta archivos olvidados o temporales.
+
+Fuga de código fuente: encuentra código filtrado o accesible públicamente.
+
+📡 Interceptación y análisis
+Interceptación de tráfico: inspecciona solicitudes y respuestas en tiempo real.
+
+Análisis de registros: revisa logs para detectar errores o datos sensibles.
+
+Pruebas de manejo de errores: provoca errores y estudia las respuestas.
+
+Mapeo del comportamiento de respuesta: detecta inconsistencias en respuestas.
+
+🔎 Automatización e inteligencia
+Escaneo automatizado: utiliza herramientas como Burp, Nuclei, etc.
+
+Verificación manual: confirma resultados del escaneo.
+
+Pruebas a ciegas: detecta vulnerabilidades sin respuestas explícitas (tiempo, tamaño).
+
+Listas de palabras personalizadas: crea diccionarios adaptados al objetivo.
+
+Scripting personalizado: desarrolla herramientas propias según tus necesidades.
+
+🛠️ Entorno y pruebas locales
+Duplicación de sandbox: clona entornos para pruebas seguras.
+
+Integración de CI/CD: automatiza pruebas en entornos de desarrollo.
+
+Verificación de configuración: revisa seguridad del servidor y headers.
+
+Aplicación de la lista de verificación: sigue una metodología estructurada.
+
+📦 Dependencias y terceros
+Análisis de dependencias: encuentra librerías vulnerables u obsoletas.
+
+Pruebas de servicios de terceros: analiza integraciones externas.
+
+Técnicas de revelación de código: identifica rutas expuestas o sensibles.
+
+Abuso de protocolo: envía solicitudes no estándar para provocar fallos.
+
+📤 Caché y persistencia
+Envenenamiento de caché: manipula datos almacenados para otros usuarios.
+
+Verificaciones de atributos de cookies: revisa HttpOnly, Secure, SameSite.
+
+📚 Documentación y reportes
+Plantillas de informes: estructura reportes claros y con PoC.
+
+Etiquetado y seguimiento: registra hallazgos en un sistema organizado.
+
+Revisión posterior a la participación: documenta lecciones aprendidas.
+
+🧠 Crecimiento y comunidad
+Aprendizaje continuo: estudia nuevos enfoques y exploits.
+
+Establecimiento de objetivos: domina nuevas técnicas periódicamente.
+
+Flujos de trabajo de colaboración: trabaja con otros para ampliar tu visión.
+
+Haz contactos y comparte: involúcrate en comunidades y conferencias.
+
+Descansos y ergonomía: mantén el equilibrio para maximizar tu rendimiento.
+
