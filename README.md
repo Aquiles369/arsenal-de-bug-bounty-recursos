@@ -452,6 +452,8 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 • <a href="https://medium.verylazytech.com/top-ten-books-for-bug-bounty-95e8a42fb519" target="_blank" rel="noopener"> Libros para aprender bug bounty top 10  </a>
 
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/unnamed(8).png" target="_blank" rel="noopener"> Libros para aprender bug bouty  </a>
+
 • <a href="https://github.com/akr3ch/BugBountyBooks" target="_blank" rel="noopener"> Libros para aprender bug bounty extra </a>
 
 
