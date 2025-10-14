@@ -126,7 +126,7 @@ Estándares<br>
 
 • <a href="https://wiki.hackerium.io/web-pentest-checklists/the-main-one" target="_blank" rel="noopener">Principal</a>
 
-• <a href="" target="_blank" rel="noopener">OSSTM 3</a>
+• <a href="https://www.isecom.org/OSSTMM.3.pdf" target="_blank" rel="noopener">OSSTM 3</a>
 
 • <a href="https://attack.mitre.org/" target="_blank" rel="noopener">attack.mitre</a>
 
@@ -150,6 +150,9 @@ Extra<br>
 
 • <a href="https://medium.com/@trapp3rhat/bug-hunting-methodology-part-3-457eaf9768a5" target="_blank" rel="noopener">trapp3rhat v3</a>
 
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/Bugbounty_metodolia_moha.html" target="_blank" rel="noopener">Descargar exel de moha.html</a>
+
+
 • <a href="https://medium.com/@khaled.hassan/bugbountyprotip-collection-4a19e5b5b296" target="_blank" rel="noopener">khaled</a><br><br>
 
 
@@ -167,7 +170,7 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 • <a href="https://replit.com/" target="_blank" rel="noopener">replit</a>
 
-• <a href="https://dise0.gitbook.io/h4cker_b00k/herramientas-tecnicas/hackingweb/vulnerabilidad-open-redirect" target="_blank" rel="noopener">Promt ia img</a><br>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/prompt_interesante_cualquier_IA.jpg" target="_blank" rel="noopener">Promt para cualquier ia img</a><br>
 
 
 <br>
@@ -182,6 +185,23 @@ Aquiles pues mire toda las que tiene -_-<br>
 • <a href="https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Web/Checklist%20or%20type%20of%20attacks%20for%20bounty" target="_blank" rel="noopener">bb1nfosec check list </a>
 
 • <a href="https://bugcrowd.com/vulnerability-rating-taxonomy" target="_blank" rel="noopener">Taxonomy Vulnerability</a>
+
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/servidores%20de%20aplicacion%20Java.jpg" target="_blank" rel="noopener">servidores de Java</a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/evolucion_bug_bounty.png" target="_blank" rel="noopener">Evolucion_bug_bounty.png</a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/extensiones_google.png" target="_blank" rel="noopener">Extensiones de bug bounty navegador</a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/extensiones_burp_suite" target="_blank" rel="noopener">Extensiones Burp Suite</a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/canal_youtube_bug_bounty_muy_buenos.txt" target="_blank" rel="noopener">Canales de Youtube y Comunicades, conferencia etc que hablan sobre Bug bounty</a>
+
+
 
 • <a href="https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE?source=post_page-----605911cfa248---------------------------------------" target="_blank" rel="noopener">Biblia del Bug bounty</a>
 
@@ -205,6 +225,8 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 • <a href="https://radar.cloudflare.com/es-es/scan/10fe7a16-179f-4713-8ff7-e151a4ac0841/indicators" target="_blank" rel="noopener"> Cloudfare analisis</a>
 
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/sitios%20para%20encontrar%20info%20sensible.jpg" target="_blank" rel="noopener">sitios para encontrar info sensible.jpg</a>
+
 
 • <a href="https://www.youtube.com/watch?v=v9TvVRwDIPA" target="_blank" rel="noopener">Ekoparty Security Conference</a><br><br>
 
@@ -218,16 +240,20 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 
 
-• <a href="https://www.youtube.com/watch?v=XKxPgeUVc-A" target="_blank" rel="noopener">Saltándonos las limitaciones del scope Bernardo Viqueira minutor 23,  primer tecnica </a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/informe.png" target="_blank" rel="noopener"> informe.png </a>
 
-• <a href="https://www.youtube.com/watch?v=XdKM1HEW0Ck" target="_blank" rel="noopener">Alexis Fernández </a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/informe_bueno" target="_blank" rel="noopener">informe_bueno </a>
 
-• <a href="https://chaos.projectdiscovery.io/" target="_blank" rel="noopener">Buscador de empresas</a>
-
-• <a href="https://www.youtube.com/watch?v=qL2gCXByqrU" target="_blank" rel="noopener"> Gonzalo Cabrera armar plantilla nucley</a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/reporte_buena.png" target="_blank" rel="noopener">reporte_buena.png</a>
 
 
-• <a href="https://cloud.projectdiscovery.io/templates" target="_blank" rel="noopener">Plantilla Nuclei</a><br><br>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/reporte%20para%20los%20bugs%20formato.png" target="_blank" rel="noopener"> informe para los errores formato.png</a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/lantila_reporte_bugcrow" target="_blank" rel="noopener"> reporte Bugcrow</a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/buenas_cositas_para_informes_agergar_cvs.png" target="_blank" rel="noopener">buenas_cositas_para_informes_agergar_cvs.png
+</a><br><br>
 
 
 
@@ -345,6 +371,7 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 • <a href="https://owasp.org/www-project-vulnerable-web-applications-directory/" target="_blank" rel="noopener">sitio web para practicar interesante  5 owasp varias iso etc </a>
 
+
 • <a href="https://github.com/emadshanab?tab=repositories&q=bug+bounty&type=&language=&sort=" target="_blank" rel="noopener">Repo de github intersante coleccion de un poco de todo bug bounty etc</a><br><br>
 
 
@@ -356,13 +383,26 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 
 
-• <a href="https://www.infosecmatter.com/bug-bounty-tips/" target="_blank" rel="noopener">150 tips bug bounty </a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/consejo_top_hunter_150" target="_blank" rel="noopener">150 tips bug bounty </a>
 
 • <a href="https://bbinfosec.medium.com/collection-of-bug-bounty-tip-will-be-updated-daily-605911cfa248" target="_blank" rel="noopener">100 tips bug bounty </a>
 
-• <a href="https://0dayfans.com/" target="_blank" rel="noopener">50 tips bug bounty </a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/50_tips_bug_bounty" target="_blank" rel="noopener">50 tips bug bounty </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/twiter_gente_que_sabe.png" target="_blank" rel="noopener">Consejos seguir gente de twitter </a>
+
 
 • <a href="https://gowsundar.gitbook.io/book-of-bugbounty-tips/tips-from-alra3ees" target="_blank" rel="noopener">Consejos Genelares </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/consejos_tips_etc.png" target="_blank" rel="noopener">Consejos extra </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/new/main/asset" target="_blank" rel="noopener">Consejos para clasificar CVSS </a>
+
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/consejos_burp_suite_trucos_tecaldos%20-%20copia.png" target="_blank" rel="noopener">Consejos Burp Suite </a>
+
+
 
 • <a href="https://dojo-yeswehack.com/" target="_blank" rel="noopener">Consejos cortitos </a><br><br>
 
@@ -385,9 +425,21 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 • <a href="https://0dayfans.com/" target="_blank" rel="noopener">pdf y libros de bug bounty </a>
 
-• <a href="https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-es/02-checklist/05-checklist" target="_blank" rel="noopener"> Codigo Seguro OWASP </a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/bug%20bounty%20REAL-WORLD.pdf" target="_blank" rel="noopener"> bug bounty REAL-WORLD descargar</a>
 
-• <a href="" target="_blank" rel="noopener">80 tools bug bounty  </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/Bug%20Bounty%20Bootcamp%20The%20Guide%20to%20Finding%20and%20Reporting%20Web%20Vulnerabilities%20by%20Vickie%20Li.pdf" target="_blank" rel="noopener">Bug Bounty Bootcamp The Guide to Finding and Reporting Web Vulnerabilities descargar </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/Real-World%20Bug%20Hunting%20-%20A%20Field%20Guide%20to%20Web%20Hacking%20by%20Peter%20Yaworski.pdf" target="_blank" rel="noopener">Real-World Bug Hunting - A Field Guide to Web Hacking  </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/The%20Web%20Application%20Hacker's%20Handbook_%20Finding%20and%20Exploiting%20Security%20Flaws.pdf" target="_blank" rel="noopener">The Web Application Hacker's Handbook_ Finding and Exploiting Security descargar </a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/libros_apis.png" target="_blank" rel="noopener"> Libros para aprender hacking API </a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/tools_80_bug_bounty" target="_blank" rel="noopener">80 tools bug bounty  </a>
+
 
 
 
