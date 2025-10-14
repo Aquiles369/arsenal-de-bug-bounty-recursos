@@ -62,71 +62,64 @@ buscador (Cliente / Servidor / Otras), buscar por nombre/header/resumen.
 
 ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Secciones & Categorías<br><br>
 
-- CLIENTE<br>
+- Metodologías +25 <br><br>
 
-• Open Redirect — Location — redirige sin validar destino.
-
-• Email-attacks — X-Mailer — cabeceras de correo manipulables.
-
-• Header-injections — Content-Type — inyección de headers.
-
-• CORS — Access-Control-Allow-Origin — orígenes inseguros permitidos.
-
-• CSRF — SameSite — sin token/mitigación suficiente.
-
-• Cookies — Set-Cookie — flags de seguridad ausentes.
-
-• SSTI — Content-Type — templates no saneados.
-
-• CSP/XSS — Content-Security-Policy / X-XSS-Protection — políticas débiles/ausentes.
-
-• WebSockets — Sec-WebSocket-Protocol — validación incorrecta.
-
-• XXE — Content-Type: application/xml — entidades externas habilitadas.
-
-(y más: Quick-tricks, Cache, etc.)<br><br>
+Playbooks<br>
 
 
-- SERVIDOR
+• <a href="https://www.youtube.com/@NahamSec/search?query=metodologia" target="_blank" rel="noopener">NahamSec</a>
 
-• Command Injection — CSP (contexto) — entradas no filtradas ejecutan comandos.
+• <a href="https://www.youtube.com/watch?v=gIz_yn0Uvb8&list=PLh--xwfc2oZoYOev46lNMSVniNyr4OEHO" target="_blank" rel="noopener">Jason Haddix</a>
 
-• CRLF / Smuggling — Transfer-Encoding — request smuggling / header injection.
+• <a href="https://www.youtube.com/watch?v=C4ZHAdI8o1w&t=210s" target="_blank" rel="noopener">Jason Haddix  v2 </a>
 
-• General-info — Server / X-Powered-By — fingerprinting sensible.
+• <a href="https://www.youtube.com/watch?v=Qw1nNPiH_Go&list=PLWay6gx6Lv_Bdcb9-FQg7q7I3BqRD9lr9&index=5" target="_blank" rel="noopener">Jason Haddix v3</a>
 
-• IDOR / ATO — Authorization — control de acceso/autenticación débil.
+• <a href="https://www.youtube.com/watch?v=p4JgIu1mceI&list=PLWay6gx6Lv_Bdcb9-FQg7q7I3BqRD9lr9&index=6" target="_blank" rel="noopener">Jason Haddix v4</a>
 
-• SSRF — Content-Type — server-side requests mal validadas.
+• <a href="https://www.youtube.com/watch?v=FqnSAa2KmBI" target="_blank" rel="noopener">Jason Haddix HackerOne</a>
 
-• VHosts — Host — virtual hosts mal configurados.
+• <a href="https://github.com/jhaddix/tbhm" target="_blank" rel="noopener">Jason Haddix repo github</a>
 
-• Crawl-fuzz — Cache-Control — endpoints internos expuestos.
-
-• SQLi / ORM / LDAP / SAML — Content-Type / Authorization — inyecciones varias.
-
-• Race conditions — Authorization — validaciones de estado frágiles.
-
-• Serialización — Content-Type — deserialización insegura.<br><br>
+• <a href="https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-web/index.html">hacktricks</a><br><br>
 
 
-- OTRAS VULNERABILIDADES
+- Dominios
 
-• Broken Links — 404 Not Found — referencias muertas.
+•• <a href="https://wiki.hackerium.io/api-security-checklist/rest-security-cheat-sheet" target="_blank" rel="noopener">hackerium Api Rest</a>
 
-• Online hashes cracked — Security — credenciales expuestas/comprometidas.
+• <a href="https://wiki.hackerium.io/api-security-checklist/api-pentest-guide" target="_blank" rel="noopener">Api</a>
 
-• API Key Leaks — Authorization / X-API-Key — claves expuestas.
+• <a href="https://docs.google.com/spreadsheets/d/12NUeX8RWLrGTP9mss-POjyre8GCx9Z1Co4XMjvKG17A/edit?source=post_page-----8ecec2aafffe---------------------------------------&gid=0#gid=0" target="_blank" rel="noopener">docs</a>
 
-• Session fixation — Set-Cookie — fijación de sesión.
+• <a href="https://rules.sonarsource.com/html/" target="_blank" rel="noopener">Lenguajes</a>
 
-• JWT — Authorization — firmas no verificadas/algoritmos débiles.
+• <a href="https://wiki.hackerium.io/web-attack/web-attacks-library" target="_blank" rel="noopener">Santiago Lopez</a>
 
-• Reverse-proxy bypass — *X-Forwarded- ** — evasión por cabeceras.
+• <a href="https://afsh4ck.gitbook.io/ethical-hacking-cheatsheet/recopilacion-de-informacion/hacking-en-cms" target="_blank" rel="noopener">cms</a>
 
-• S3/AWS — ACAO — CORS permisivo en buckets.
+• <a href="https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies" target="_blank" rel="noopener">LLM</a>
 
-• Kubernetes / Docker — Authorization — malas configuraciones.
+
+• <a href="https://cloud.hacktricks.wiki/en/pentesting-cloud/pentesting-cloud-methodology.html">Cloud hacktricks</a><br><br>
+
+
+Estándares<br>
+
+
+• <a href="https://wiki.hackerium.io/web-pentest-checklists/owasp-based" target="_blank" rel="noopener">OWASP</a>
+
+• <a href="https://wiki.hackerium.io/web-pentest-checklists/otg-based" target="_blank" rel="noopener">OTG</a>
+
+• <a href="https://wiki.hackerium.io/web-pentest-checklists/the-general" target="_blank" rel="noopener">General </a>
+
+• <a href="https://wiki.hackerium.io/web-pentest-checklists/scope-based" target="_blank" rel="noopener">Alcance</a>
+
+• <a href="https://wiki.hackerium.io/web-pentest-checklists/the-main-one" target="_blank" rel="noopener">Principal</a>
+
+
+
+
 
 
 <br>
