@@ -246,10 +246,21 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/reporte_buena.png" target="_blank" rel="noopener">reporte_buena.png</a>
 
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/referencia_inyeccion_request_general_muy_bueno.png" target="_blank" rel="noopener">referencia_inyeccion_request_general_muy_bueno </a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/plataformas_partes_mundo.png" target="_blank" rel="noopener">plataformas_partes_mundo </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/pogos_empresas.png" target="_blank" rel="noopener">Pagos de empreas </a>
+
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/pagos_hunter.png" target="_blank" rel="noopener">Pago para hunter </a>
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/reporte%20para%20los%20bugs%20formato.png" target="_blank" rel="noopener"> informe para los errores formato.png</a>
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/lantila_reporte_bugcrow" target="_blank" rel="noopener"> reporte Bugcrow</a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/formato_md.png" target="_blank" rel="noopener">Formato en md del informe </a>
 
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/buenas_cositas_para_informes_agergar_cvs.png" target="_blank" rel="noopener">buenas_cositas_para_informes_agergar_cvs.png
@@ -436,6 +447,12 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/libros_apis.png" target="_blank" rel="noopener"> Libros para aprender hacking API </a>
+
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/libor%20bug%20bounty%20mas.png" target="_blank" rel="noopener"> Libros para aprender bug bounty  </a>
+
+• <a href="https://medium.verylazytech.com/top-ten-books-for-bug-bounty-95e8a42fb519" target="_blank" rel="noopener"> Libros para aprender bug bounty top 10  </a>
+
+• <a href="https://github.com/akr3ch/BugBountyBooks" target="_blank" rel="noopener"> Libros para aprender bug bounty extra </a>
 
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/tools_80_bug_bounty" target="_blank" rel="noopener">80 tools bug bounty  </a>
