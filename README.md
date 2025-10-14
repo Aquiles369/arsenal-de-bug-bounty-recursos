@@ -38,15 +38,10 @@ Este repositorio elimina ese problema concentrando todo el conocimiento crítico
 
 ### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHE2YTMzcHZ3MTdwOWRkNWF2b3BvOGpsazFlZHRpdThzaG1wdGl5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AbWjauiuqyl8A7k2Ad/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
 **• 📚 Metodologías (+25): recopila los enfoques de NahamSec, Jason Haddix y HackTricks, dándote una base táctica sólida para cada etapa del bug bounty.<br><br>
-
 🌐 Dominios y entornos: incluye recursos para APIs, CMS, documentación, LLMs y más, cubriendo todas las superficies de ataque posibles.<br><br>
-
 📏 Estándares: referencias clave como OWASP, OSSTMM y MITRE ATT&CK para asegurar que tu trabajo esté alineado con marcos reconocidos internacionalmente.<br><br>
-
 🧠 IA y prompt engineering: secciones dedicadas a usar IA para automatizar tareas, generar payloads o crear prompts inteligentes.<br><br>
-
 🔍 Recon avanzado: técnicas para romper límites de scope, analizar infraestructura cloud, identificar objetivos ocultos y mapear superficies reales de ataque.<br><br>
-
 📝 Plantillas e informes: formatos reutilizables para reportar vulnerabilidades con calidad profesional y estructuras adaptadas a plataformas como HackerOne o Bugcrowd.<br><br>
 
 🛡️ Bypass y evasión: una de las joyas del arsenal — más de 500 técnicas, ejemplos y estrategias reales para evadir WAF, romper CSP y explotar desincronizaciones HTTP.<br><br>
