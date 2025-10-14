@@ -11,12 +11,12 @@
 
 <picture> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  </picture>
 
- ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5xbTh2enIxaHc5YzNtdHh6Znc0M2F1eGJib3N5eTBuOGNwNWo2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qRcwVv2yEmy0VORK8n/giphy.gif" width = 75px>  </picture> Arsenal de recursos para Bug bounty
+ ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5xbTh2enIxaHc5YzNtdHh6Znc0M2F1eGJib3N5eTBuOGNwNWo2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qRcwVv2yEmy0VORK8n/giphy.gif" width = 75px>  </picture> Resumen técnico del repositorio — Bug Bounty Arsenal
 
 <br>
 
- **Visor/gestor local con tablas, buscador y notas para mapear vulnerabilidades ↔ encabezados HTTP.
-100% offline (HTML): filtra tu checklist de findings por Cliente, Servidor y Otras vulnerabilidades (Open Redirect, CORS, CSRF, XSS, SSRF, SQLi, XXE, WebSockets, CSP, cookies, proxy bypass, etc.), mostrando el header relacionado y un resumen táctico,<a href="https://youtu.be/y-m5iAHW3wI" target="_blank" rel="noopener">demo de la tool Youtube</a>.** 
+ **Este repositorio concentra todo el ecosistema que un bug bounty hunter necesita para operar con máxima eficacia: metodologías comprobadas, plantillas profesionales, recursos ofensivos, herramientas de evasión, técnicas de recon avanzadas, estándares, tips prácticos, guías IA, bypasses, frameworks y fuentes continuas de investigación.<br><br>
+No es una simple colección de links: está organizado como una infraestructura ofensiva completa, desde el pensamiento estratégico hasta la explotación técnica,<a href="https://youtu.be/y-m5iAHW3wI" target="_blank" rel="noopener">demo en mi canal de Youtube</a>.** 
 <br><br> 
 
 <p align="center">
@@ -28,16 +28,40 @@
 <br><br>
 
 ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXhvZzBlOTRha2tsazZ3dzBhNGFqdWtzYXRlenRpaWd2aTVsczJxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4ZEHd4101jXIfWcUKK/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
-**En bug bounty, el mapeo “vuln ↔ header” suele estar roto: info en wikis, RFCs, blogs y notas perdidas. Eso te frena: querés validar rápido si un hallazgo tiene huella en headers, priorizar, y recordar la explicación corta para reportar sin ir a Google.<br><br>
-Excalibur te da un hub offline: un índice navegable que conecta tipo de vulnerabilidad, encabezado y resumen, con buscador inmediato y edición en vivo. Resultado: menos alt+tab, más impacto.</a>.** 
-
+**Hoy en día, un cazador de bugs tiene que saltar entre decenas de fuentes, PDFs, artículos, scripts, guías y estándares para reunir todo lo necesario. Esa fragmentación ralentiza el proceso, genera huecos metodológicos y obliga a improvisar.<br><br>
+Este repositorio elimina ese problema concentrando todo el conocimiento crítico del ciclo de caza en un solo lugar estructurado, desde el recon inicial hasta el envío de informes y la evasión avanzada de WAF.<br>
+✔️ Elimina la pérdida de tiempo buscando información.<br>
+✔️ Unifica metodologías, estándares y herramientas en una sola interfaz mental.<br>
+✔️ Permite escalar la calidad y velocidad del hunting.<br>
+✔️ Convierte el proceso en algo repetible, optimizable y documentado.</a>.**
 <br><br>
 
 ### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHE2YTMzcHZ3MTdwOWRkNWF2b3BvOGpsazFlZHRpdThzaG1wdGl5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AbWjauiuqyl8A7k2Ad/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
-**• Mapa mental listo para la caza: tablas por Cliente, Servidor y Otras, con el header más relevante para cada finding (p. ej., Open Redirect → Location, CORS → Access-Control-Allow-Origin, CSRF → SameSite, XSS/CSP → Content-Security-Policy, XXE → Content-Type: application/xml, Request Smuggling → Transfer-Encoding, etc.).<br><br>
-• Búsqueda y filtros instantáneos: buscador principal por nombre de vulnerabilidad, encabezado o resumen;.<br><br>
-• Privacidad/resiliencia: funciona offline en tu navegador (localStorage opcional). Nada de backend, ideal para entornos aislados.<br><br>
-• Listo para reportar: cada fila trae un resumen corto que te recuerda el porqué y el cómo de la relación vuln↔header.</a>.** 
+**• 📚 Metodologías (+25): recopila los enfoques de NahamSec, Jason Haddix y HackTricks, dándote una base táctica sólida para cada etapa del bug bounty.<br><br>
+
+🌐 Dominios y entornos: incluye recursos para APIs, CMS, documentación, LLMs y más, cubriendo todas las superficies de ataque posibles.<br><br>
+
+📏 Estándares: referencias clave como OWASP, OSSTMM y MITRE ATT&CK para asegurar que tu trabajo esté alineado con marcos reconocidos internacionalmente.<br><br>
+
+🧠 IA y prompt engineering: secciones dedicadas a usar IA para automatizar tareas, generar payloads o crear prompts inteligentes.<br><br>
+
+🔍 Recon avanzado: técnicas para romper límites de scope, analizar infraestructura cloud, identificar objetivos ocultos y mapear superficies reales de ataque.<br><br>
+
+📝 Plantillas e informes: formatos reutilizables para reportar vulnerabilidades con calidad profesional y estructuras adaptadas a plataformas como HackerOne o Bugcrowd.<br><br>
+
+🛡️ Bypass y evasión: una de las joyas del arsenal — más de 500 técnicas, ejemplos y estrategias reales para evadir WAF, romper CSP y explotar desincronizaciones HTTP.<br><br>
+
+🧪 Sitios y herramientas: generadores, laboratorios, herramientas online y colecciones útiles para practicar y probar exploits.<br><br>
+
+📊 Gestión: guías para evaluar severidades con CVSSv3, hacer seguimiento de objetivos y documentar cambios.<br><br>
+
+📚 Fuentes de investigación: canales, repositorios, sitios de práctica, artículos, informes y colecciones de 0-days.<br><br>
+
+💡 Tips y consejos: más de 300 tips prácticos para mejorar tu mentalidad ofensiva y tu eficiencia diaria.<br><br>
+
+📦 Recursos extra: extensiones, plugins, libros y utilidades que refuerzan tu entorno de trabajo.<br><br>
+
+💥 En resumen: transforma un entorno caótico en un arsenal ordenado, escalable y listo para usar, optimizando cada paso de la caza.</a>.** 
 
 <br>
 
@@ -48,12 +72,13 @@ Excalibur te da un hub offline: un índice navegable que conecta tipo de vulnera
 ### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNlYnR1N3Z1Z24zMTlzeGY5Z3Fhbm90NzlwdTA1eG51bmJiYTgyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qX7cKKUo6rOrEFG1RW/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
-Herramienta offline en el navegador para catalogar vulnerabilidades y sus encabezados HTTP relacionados.
-buscador (Cliente / Servidor / Otras), buscar por nombre/header/resumen.
+🏹 Bug Bounty Arsenal — Tu campo de batalla completo<br>
 
-• Formato: HTML estático (una sola página).
+Este repositorio reúne y organiza todo lo que un cazador de vulnerabilidades necesita para operar al más alto nivel: metodologías, estándares, técnicas de recon, bypasses, guías IA, plantillas de informes, recursos ofensivos, sitios de práctica, tips y colecciones continuas de investigación.<br>
 
-• Seguridad UI: el contenido mostrado en tablas.<br><br>
+🌐 Desde la fase de descubrimiento hasta la explotación avanzada y el envío de informes, todo está estructurado en un solo lugar para eliminar la dispersión de información y maximizar tu eficacia.<br>
+
+⚔️ Con este arsenal, transformás el caos en estrategia: dejás de buscar recursos por separado y empezás a operar como un verdadero profesional del bug bounty.<br><br>
 
 
 
