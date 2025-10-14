@@ -42,20 +42,13 @@ Este repositorio elimina ese problema concentrando todo el conocimiento crítico
 📏 Estándares: referencias clave como OWASP, OSSTMM y MITRE ATT&CK para asegurar que tu trabajo esté alineado con marcos reconocidos internacionalmente.<br><br>
 🧠 IA y prompt engineering: secciones dedicadas a usar IA para automatizar tareas, generar payloads o crear prompts inteligentes.<br><br>
 🔍 Recon avanzado: técnicas para romper límites de scope, analizar infraestructura cloud, identificar objetivos ocultos y mapear superficies reales de ataque.<br><br>
-📝 Plantillas e informes: formatos reutilizables para reportar vulnerabilidades con calidad profesional y estructuras adaptadas a plataformas como HackerOne o Bugcrowd.<br><br>
-
-🛡️ Bypass y evasión: una de las joyas del arsenal — más de 500 técnicas, ejemplos y estrategias reales para evadir WAF, romper CSP y explotar desincronizaciones HTTP.<br><br>
-
+📝 Plantillas e informes: formatos reutilizables para reportar vulnerabilidades con calidad profesional y estructuras adaptadas a plataformas como HackerOne o Bugcrowd<br><br>
+🛡️ Bypass y evasión: una de las joyas del arsenal — más de 500 técnicas, ejemplos y estrategias reales para evadir WAF, romper CSP y explotar desincronizaciones HTTP<br><br>
 🧪 Sitios y herramientas: generadores, laboratorios, herramientas online y colecciones útiles para practicar y probar exploits.<br><br>
-
 📊 Gestión: guías para evaluar severidades con CVSSv3, hacer seguimiento de objetivos y documentar cambios.<br><br>
-
 📚 Fuentes de investigación: canales, repositorios, sitios de práctica, artículos, informes y colecciones de 0-days.<br><br>
-
 💡 Tips y consejos: más de 300 tips prácticos para mejorar tu mentalidad ofensiva y tu eficiencia diaria.<br><br>
-
 📦 Recursos extra: extensiones, plugins, libros y utilidades que refuerzan tu entorno de trabajo.<br><br>
-
 💥 En resumen: transforma un entorno caótico en un arsenal ordenado, escalable y listo para usar, optimizando cada paso de la caza.</a>.** 
 
 <br>
