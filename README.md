@@ -73,9 +73,7 @@ Este repositorio reúne y organiza todo lo que un cazador de vulnerabilidades ne
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa290ODJmYjVmd3prMnRrN2NkNXBwcmdlZncyZXB2d3dvNTVmejltaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gk3ut9Urw4NkRVaXHb/giphy.gif" width = 80px>  </picture> Secciones & Categorías<br><br>
-
-- Metodologías +25 <br>
+### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa290ODJmYjVmd3prMnRrN2NkNXBwcmdlZncyZXB2d3dvNTVmejltaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gk3ut9Urw4NkRVaXHb/giphy.gif" width = 80px>  </picture> Metodologías +25 <br><br>
 
 
 • <a href="https://www.youtube.com/@NahamSec/search?query=metodologia" target="_blank" rel="noopener">NahamSec</a>
@@ -167,9 +165,6 @@ Aquiles pues mire toda las que tiene -_-<br>
 
 
 
-IA<br>
-
-
 • <a href="https://replit.com/" target="_blank" rel="noopener">replit</a>
 
 • <a href="https://dise0.gitbook.io/h4cker_b00k/herramientas-tecnicas/hackingweb/vulnerabilidad-open-redirect" target="_blank" rel="noopener">Promt ia img</a><br>
@@ -182,9 +177,6 @@ IA<br>
 
 ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXplYWMzaWR2b3p0NW90dDlxNDhsMXVsa3l1b2F5MnF2cTBpb2NkcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/H4Wzx5SnwwR5lf0ICK/giphy.gif" width = 80px>  </picture> Core<br><br>
 
-
-
-Core<br>
 
 
 • <a href="https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Web/Checklist%20or%20type%20of%20attacks%20for%20bounty" target="_blank" rel="noopener">bb1nfosec check list </a>
@@ -203,9 +195,6 @@ Core<br>
 
 ### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnQxNWxwZnVndHh2OWwyZm1vem8zdnpkZDZqMTM0bmFpNWF4bHNtaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jnED0Da59KfXY5QEv4/giphy.gif" width = 80px>  </picture> Recon<br><br>
 
-
-
-Recon<br>
 
 
 • <a href="https://www.youtube.com/watch?v=XKxPgeUVc-A" target="_blank" rel="noopener">Saltándonos las limitaciones del scope Bernardo Viqueira minutor 23,  primer tecnica </a>
@@ -229,9 +218,6 @@ Recon<br>
 
 
 
-Plantillas informes<br>
-
-
 • <a href="https://www.youtube.com/watch?v=XKxPgeUVc-A" target="_blank" rel="noopener">Saltándonos las limitaciones del scope Bernardo Viqueira minutor 23,  primer tecnica </a>
 
 • <a href="https://www.youtube.com/watch?v=XdKM1HEW0Ck" target="_blank" rel="noopener">Alexis Fernández </a>
@@ -253,9 +239,6 @@ Plantillas informes<br>
 
 ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTVtbG50emZnenVtMGIwaTZ5eGs0dXdyb2RnYzNkbWdtY3Y0ZjVhbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Id6Hbkm00kVl12HhcL/giphy.gif" width = 80px>  </picture> Plataformas para informes <br><br>
 
-
-
-Plataformas para informes<br>
 
 
 • <a href="https://freedium.cfd/" target="_blank" rel="noopener">Para poder mirar los informes de meduim gratis </a>
@@ -287,9 +270,6 @@ Plataformas para informes<br>
 
 
 
-Bypass<br>
-
-
 • <a href="https://waf-bypass.com/" target="_blank" rel="noopener">Saltándonos las limitaciones del scope Bernardo Viqueira minutor 23,  primer tecnica </a>
 
 • <a href="https://afsh4ck.gitbook.io/ethical-hacking-cheatsheet/evasion-de-defensas/deteccion-y-evasion-de-defensas/load-balancing-detector" target="_blank" rel="noopener">Load Balancing Detector </a>
@@ -318,8 +298,6 @@ Bypass<br>
 
 
 
-sitio interesantes<br>
-
 
 • <a href="https://www.exploit-db.com/searchsploit" target="_blank" rel="noopener">SearchSploit </a>
 
@@ -336,8 +314,6 @@ sitio interesantes<br>
 ### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGwzNjJmcXF6d2NoNm42Z2RyOGFubm9vemxmeXR0amdoMDE1dnZxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LtLpYRENkX5AUHC7TU/giphy.gif" width = 80px>  </picture> Gestión <br><br>
 
 
-Gestión<br>
-
 
 • <a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator" target="_blank" rel="noopener">cvss v3 </a>
 
@@ -351,8 +327,6 @@ Gestión<br>
 
 ### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3dvNXJrZ2Q4ZTVxcThoc204cXAydXY3Yjh5YXFzbmQ3cHNmY3BubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cKKbfNHIfR0bHaxere/giphy.gif" width = 80px>  </picture> Fuentes <br><br>
 
-
-Fuentes<br>
 
 
 • <a href="https://www.infosecmatter.com/bug-bounty-tips/" target="_blank" rel="noopener">infosecmatter 7 categorias de bug bounty </a>
@@ -381,8 +355,6 @@ Fuentes<br>
 ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTl1OHBlYWpyNXU4dXI4eGVnYndlbGl2dDA5ZHM2d3o2cmh1NW43NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1UXPxRCvXOH2niS8ie/giphy.gif" width = 80px>  </picture> Tips <br><br>
 
 
-Tips<br>
-
 
 • <a href="https://www.infosecmatter.com/bug-bounty-tips/" target="_blank" rel="noopener">150 tips bug bounty </a>
 
@@ -405,8 +377,6 @@ Tips<br>
 
 ### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWNyYTdrZ282MHZ2NG43eW9odjc2aWNueDl4aG1zbGo2MXVwbjE1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WrancPwf63Kovsglwm/giphy.gif" width = 80px>  </picture> Recursos extras <br><br>
 
-
-Recursos extras<br>
 
 
 • <a href="https://www.infosecmatter.com/bug-bounty-tips/" target="_blank" rel="noopener">Extensiones del navegador para bug bounty </a>
