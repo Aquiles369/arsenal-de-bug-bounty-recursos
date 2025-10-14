@@ -419,6 +419,10 @@ Recursos extras<br>
 
 • <a href="https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-es/02-checklist/05-checklist" target="_blank" rel="noopener"> Codigo Seguro OWASP </a>
 
+• <a href="" target="_blank" rel="noopener">80 tools bug bounty  </a>
+
+
+
 • <a href="https://dojo-yeswehack.com/" target="_blank" rel="noopener">Consejos cortitos </a><br><br>
 
 
