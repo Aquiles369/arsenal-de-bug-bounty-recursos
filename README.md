@@ -16,7 +16,7 @@
 <br>
 
  **Este repositorio concentra todo el ecosistema que un bug bounty hunter necesita para operar con máxima eficacia: metodologías comprobadas, plantillas profesionales, recursos ofensivos, herramientas de evasión, técnicas de recon avanzadas, estándares, tips prácticos, guías IA, bypasses, frameworks y fuentes continuas de investigación.<br><br>
-No es una simple colección de links: está organizado como una infraestructura ofensiva completa, desde el pensamiento estratégico hasta la explotación técnica,<a href="https://youtu.be/y-m5iAHW3wI" target="_blank" rel="noopener">demo en mi canal de Youtube</a>.** 
+No es una simple colección de links: está organizado como una infraestructura ofensiva completa, desde el pensamiento estratégico hasta la explotación técnica,<a href="https://www.youtube.com/watch?v=_xKHM4iSx6Y" target="_blank" rel="noopener">demo en mi canal de Youtube</a>.** 
 <br><br> 
 
 <p align="center">
