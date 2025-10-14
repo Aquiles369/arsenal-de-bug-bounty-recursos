@@ -1,0 +1,570 @@
+# Burp Suite Extensions
+
+## 1 - ActiveScan++
+- **Resumen**: Extiende las capacidades de escaneo de Burp Suite, proporcionando un análisis automatizado y una mayor detección de vulnerabilidades.
+- **Enlaces de Tutoriales / Información**: [ActiveScan++ Tutorial](https://www.youtube.com/results?search_query=ActiveScan%2B%2B+Burp+extension)
+
+## 2 - Escáner CSRF
+- **Resumen**: Detecta vulnerabilidades de Cross-Site Request Forgery (CSRF) en las aplicaciones web mediante la inyección de solicitudes maliciosas.
+- **Enlaces de Tutoriales / Información**: [CSRF Scanner Tutorial](https://www.youtube.com/results?search_query=Esc%C3%A1ner+CSRF+Burp+extension)
+
+## 3 - HTML5 Auditor
+- **Resumen**: Realiza un análisis de seguridad específico de HTML5 para identificar riesgos y vulnerabilidades relacionadas con esta tecnología.
+- **Enlaces de Tutoriales / Información**: [HTML5 Auditor Tutorial](https://www.youtube.com/results?search_query=HTML5+Auditor+Burp+extension)
+
+## 4 - Java Deserialization Scanner
+- **Resumen**: Detecta vulnerabilidades de deserialización en aplicaciones Java, un tipo de vulnerabilidad crítica que puede ser explotada para ejecutar código malicioso.
+- **Enlaces de Tutoriales / Información**: [Java Deserialization Scanner Tutorial](https://www.youtube.com/results?search_query=Java+Deserialization+Scanner+Burp+extension)
+
+## 5 - CSP Bypass
+- **Resumen**: Ayuda a detectar posibles formas de eludir las políticas de seguridad de contenido (CSP) implementadas en una aplicación web.
+- **Enlaces de Tutoriales / Información**: [CSP Bypass Tutorial](https://www.youtube.com/results?search_query=CSP+Bypass+Burp+extension)
+
+## 6 - Escáner con Tecnología Backslash
+- **Resumen**: Detecta y explota vulnerabilidades que utilizan secuencias de escape como el backslash (`\`), que pueden ser útiles para evadir filtros de seguridad.
+- **Enlaces de Tutoriales / Información**: [Backslash Scanner Tutorial](https://www.youtube.com/results?search_query=Esc%C3%A1ner+con+tecnolog%C3%ADa+Backslash+Burp+extension)
+
+## 7 - Burp Sentinel
+- **Resumen**: Proporciona alertas de seguridad y gestión de incidencias durante las auditorías, supervisando ataques en tiempo real.
+- **Enlaces de Tutoriales / Información**: [Burp Sentinel Tutorial](https://www.youtube.com/results?search_query=Burp+Sentinel+Burp+extension)
+
+## 8 - Collaborator Everywhere
+- **Resumen**: Extiende el soporte para Burp Collaborator, permitiendo su uso en cualquier parte del flujo de trabajo para detectar y explotar vulnerabilidades como SSRF.
+- **Enlaces de Tutoriales / Información**: [Collaborator Everywhere Tutorial](https://www.youtube.com/results?search_query=Collaborator+Everywhere+Burp+extension)
+
+## 9 - Burp Image Size
+- **Resumen**: Escanea imágenes en las respuestas HTTP para verificar si hay alguna anomalía en su tamaño, que podría indicar un problema de seguridad.
+- **Enlaces de Tutoriales / Información**: [Burp Image Size Tutorial](https://www.youtube.com/results?search_query=Burp+Image+Size+Burp+extension)
+
+## 10 - Burp Retire JS
+- **Resumen**: Permite identificar bibliotecas JavaScript desactualizadas en una aplicación web, lo cual puede ayudar a detectar vulnerabilidades de seguridad conocidas.
+- **Enlaces de Tutoriales / Información**: [Burp Retire JS Tutorial](https://www.youtube.com/results?search_query=Burp+Retire+JS+Burp+extension)
+
+## 11 - Error Messages Check
+- **Resumen**: Escanea las respuestas de la aplicación para identificar mensajes de error que podrían exponer información sensible sobre la infraestructura o el código de la aplicación.
+- **Enlaces de Tutoriales / Información**: [Error Messages Check Tutorial](https://www.youtube.com/results?search_query=Error+Messages+Check+Burp+extension)
+
+## 12 - Identity Crisis
+- **Resumen**: Detecta problemas relacionados con la gestión de identidad y autenticación en aplicaciones web.
+- **Enlaces de Tutoriales / Información**: [Identity Crisis Tutorial](https://www.youtube.com/results?search_query=Identity+Crisis+Burp+extension)
+
+## 13 - CSP Auditor
+- **Resumen**: Analiza las políticas de seguridad de contenido (CSP) implementadas y verifica su efectividad en la protección de la aplicación.
+- **Enlaces de Tutoriales / Información**: [CSP Auditor Tutorial](https://www.youtube.com/results?search_query=CSP+Auditor+Burp+extension)
+
+## 14 - CSM Scanner WordPress
+- **Resumen**: Escanea aplicaciones web basadas en WordPress en busca de vulnerabilidades conocidas en el sistema de gestión de contenido.
+- **Enlaces de Tutoriales / Información**: [CSM Scanner WordPress Tutorial](https://www.youtube.com/results?search_query=CSM+Scanner+WordPress+Burp+extension)
+
+## 15 - Web Cache Deception
+- **Resumen**: Explota problemas de configuración de la caché en aplicaciones web para obtener contenido sensible o malicioso.
+- **Enlaces de Tutoriales / Información**: [Web Cache Deception Tutorial](https://www.youtube.com/results?search_query=Web+Cache+Deception+Burp+extension)
+
+## 16 - XSS Validator
+- **Resumen**: Ayuda a validar vulnerabilidades de Cross-Site Scripting (XSS) en aplicaciones web, permitiendo identificar puntos vulnerables a inyecciones de código.
+- **Enlaces de Tutoriales / Información**: [XSS Validator Tutorial](https://www.youtube.com/results?search_query=XSS+Validator+Burp+extension)
+
+## 17 - Detector de Proxy Inverso
+- **Resumen**: Detecta la presencia de un proxy inverso en la infraestructura de la aplicación web, lo que puede ayudar a identificar rutas de redirección y de acceso no autorizados.
+- **Enlaces de Tutoriales / Información**: [Detector de Proxy Inverso Tutorial](https://www.youtube.com/results?search_query=Detector+de+Proxy+Inverso+Burp+extension)
+
+## 18 - SRI Check
+- **Resumen**: Realiza la verificación de integridad de los archivos que se cargan a través del mecanismo de Subresource Integrity (SRI) para detectar manipulaciones maliciosas.
+- **Enlaces de Tutoriales / Información**: [SRI Check Tutorial](https://www.youtube.com/results?search_query=SRI+Check+Burp+extension)
+
+## 19 - Reflected File Download Checker
+- **Resumen**: Detecta vulnerabilidades relacionadas con la descarga de archivos reflejados, donde un atacante podría intentar inducir a un usuario a descargar un archivo malicioso.
+- **Enlaces de Tutoriales / Información**: [Reflected File Download Checker Tutorial](https://www.youtube.com/results?search_query=Reflected+File+Download+Checker+Burp+extension)
+
+## 20 - Parameters Reflected
+- **Resumen**: Identifica parámetros en las aplicaciones web que son reflejados de vuelta al usuario y pueden ser explotados para realizar ataques.
+- **Enlaces de Tutoriales / Información**: [Parameters Reflected Tutorial](https://www.youtube.com/results?search_query=Parameters+Reflected+Burp+extension)
+
+## 21 - Header Analyzer
+- **Resumen**: Analiza los encabezados HTTP en las respuestas para identificar posibles problemas de seguridad, como encabezados de seguridad mal configurados.
+- **Enlaces de Tutoriales / Información**: [Header Analyzer Tutorial](https://www.youtube.com/results?search_query=Header+Analyzer+Burp+extension)
+
+## 22 - HeartBleed
+- **Resumen**: Detecta la vulnerabilidad Heartbleed en las aplicaciones web, que afecta a los servidores con versiones vulnerables de OpenSSL.
+- **Enlaces de Tutoriales / Información**: [HeartBleed Tutorial](https://www.youtube.com/results?search_query=HeartBleed+Burp+extension)
+
+## 23 - SSL Scanner
+- **Resumen**: Escanea la configuración de SSL/TLS en el servidor para identificar configuraciones inseguras o vulnerabilidades conocidas.
+- **Enlaces de Tutoriales / Información**: [SSL Scanner Tutorial](https://www.youtube.com/results?search_query=SSL+Scanner+Burp+extension)
+
+## 24 - JS Miner
+- **Resumen**: Extrae y analiza el código JavaScript de una aplicación web para encontrar vulnerabilidades potenciales.
+- **Enlaces de Tutoriales / Información**: [JS Miner Tutorial](https://www.youtube.com/results?search_query=JS+Miner+Burp+extension)
+
+## 25 - JS Links Finder
+- **Resumen**: Busca enlaces a archivos JavaScript dentro de la aplicación web para ayudar a identificar posibles vectores de ataque.
+- **Enlaces de Tutoriales / Información**: [JS Links Finder Tutorial](https://www.youtube.com/results?search_query=JS+Links+Finder+Burp+extension)
+
+## 26 - Broken Link Hijacking
+- **Resumen**: Explota enlaces rotos en una aplicación web para redirigir a los usuarios a sitios maliciosos o para obtener acceso no autorizado.
+- **Enlaces de Tutoriales / Información**: [Broken Link Hijacking Tutorial](https://www.youtube.com/results?search_query=Broken+Link+Hijacking+Burp+extension)
+
+## 27 - HTTP Request Smuggler
+- **Resumen**: Detecta y explota vulnerabilidades de HTTP Request Smuggling, donde las solicitudes maliciosas se envían a través de diferentes servidores intermedios.
+- **Enlaces de Tutoriales / Información**: [HTTP Request Smuggler Tutorial](https://www.youtube.com/results?search_query=HTTP+Request+Smuggler+Burp+extension)
+
+## 28 - Rule Detector
+- **Resumen**: Detecta reglas de firewall, proxy o aplicaciones web que puedan estar mal configuradas y explotables.
+- **Enlaces de Tutoriales / Información**: [Rule Detector Tutorial](https://www.youtube.com/results?search_query=Rule+Detector+Burp+extension)
+
+## 29 - nQL Scanner
+- **Resumen**: Realiza un escaneo de consultas nQL (NoSQL) en las aplicaciones web para detectar vulnerabilidades relacionadas con bases de datos NoSQL.
+- **Enlaces de Tutoriales / Información**: [nQL Scanner Tutorial](https://www.youtube.com/results?search_query=nQL+Scanner+Burp+extension)
+
+## 30 - Attack Surface Detector
+- **Resumen**: Ayuda a identificar la superficie de ataque de una aplicación web, analizando rutas, parámetros y entradas expuestas.
+- **Enlaces de Tutoriales / Información**: [Attack Surface Detector Tutorial](https://www.youtube.com/results?search_query=Attack+Surface+Detector+Burp+extension)
+
+## 31 - IP Rotate
+- **Resumen**: Permite rotar la IP en las solicitudes, lo que es útil para evadir detecciones y bloquear peticiones automatizadas durante las pruebas.
+- **Enlaces de Tutoriales / Información**: [IP Rotate Tutorial](https://www.youtube.com/results?search_query=IP+Rotate+Burp+extension)
+
+## 32 - 403Bypasser
+- **Resumen**: Detecta y aprovecha las vulnerabilidades que permiten eludir la respuesta 403 en las aplicaciones web, obteniendo acceso a recursos restringidos.
+- **Enlaces de Tutoriales / Información**: [403Bypasser Tutorial](https://www.youtube.com/results?search_query=403Bypasser+Burp+extension)
+
+## 33 - Log4j2Scan
+- **Resumen**: Escanea las aplicaciones web en busca de la vulnerabilidad Log4j, que afecta a las versiones vulnerables del registro de logs en Java.
+- **Enlaces de Tutoriales / Información**: [Log4j2Scan Tutorial](https://www.youtube.com/results?search_query=Log4j2Scan+Burp+extension)
+
+## 34 - RouteVulnScan
+- **Resumen**: Analiza las rutas de la aplicación web para identificar vulnerabilidades potenciales, como fallos en la configuración de acceso.
+- **Enlaces de Tutoriales / Información**: [RouteVulnScan Tutorial](https://www.youtube.com/results?search_query=RouteVulnScan+Burp+extension)
+
+## 35 - Agartha
+- **Resumen**: Explora y audita las aplicaciones web en busca de vulnerabilidades desconocidas, aumentando la cobertura de pruebas de penetración.
+- **Enlaces de Tutoriales / Información**: [Agartha Tutorial](https://www.youtube.com/results?search_query=Agartha+Burp+extension)
+
+## 36 - Server-Side Prototype Pollution Scanner
+- **Resumen**: Detecta vulnerabilidades de contaminación de prototipos del lado del servidor, lo cual puede permitir a un atacante modificar el comportamiento de la aplicación.
+- **Enlaces de Tutoriales / Información**: [Server-Side Prototype Pollution Scanner Tutorial](https://www.youtube.com/results?search_query=Server-Side+Prototype+Pollution+Scanner+Burp+extension)
+
+## 37 - Host Header Injection
+- **Resumen**: Detecta la inyección del encabezado `Host` en solicitudes HTTP, lo que puede permitir redirecciones maliciosas o acceso no autorizado.
+- **Enlaces de Tutoriales / Información**: [Host Header Injection Tutorial](https://www.youtube.com/results?search_query=Host+Header+Injection+Burp+extension)
+
+## 38 - DNS Analyzer
+- **Resumen**: Realiza un análisis de seguridad de las configuraciones DNS, ayudando a detectar problemas como DNS Hijacking o configuraciones erróneas.
+- **Enlaces de Tutoriales / Información**: [DNS Analyzer Tutorial](https://www.youtube.com/results?search_query=DNS+Analyzer+Burp+extension)
+
+## 39 - Scan Manual Insertion Point
+- **Resumen**: Permite realizar pruebas manuales para detectar puntos de inserción vulnerables en las solicitudes HTTP.
+- **Enlaces de Tutoriales / Información**: [Scan Manual Insertion Point Tutorial](https://www.youtube.com/results?search_query=Scan+Manual+Insertion+Point+Burp+extension)
+
+## 40 - Decoder Improved
+- **Resumen**: Mejora las capacidades de decodificación de Burp Suite, permitiendo decodificar y codificar diferentes formatos de datos durante las auditorías de seguridad.
+- **Enlaces de Tutoriales / Información**: [Decoder Improved Tutorial](https://www.youtube.com/results?search_query=Decoder+Improved+Burp+extension)
+
+## 41 - Add & Track Custom Issues
+- **Resumen**: Permite agregar y realizar un seguimiento de problemas personalizados encontrados durante el escaneo de seguridad, facilitando la gestión de la auditoría.
+- **Enlaces de Tutoriales / Información**: [Add & Track Custom Issues Tutorial](https://www.youtube.com/results?search_query=Add+%26+Track+Custom+Issues+Burp+extension)
+
+## 42 - Hackvertor
+- **Resumen**: Herramienta que permite automatizar la conversión entre diferentes formatos de codificación y codificación URL/HTML, útil para ataques de inyección y manipulación de entradas.
+- **Enlaces de Tutoriales / Información**: [Hackvertor Tutorial](https://www.youtube.com/results?search_query=Hackvertor+Burp+extension)
+
+## 43 - Multi-Browser Highlighting
+- **Resumen**: Permite resaltar y visualizar solicitudes HTTP en múltiples navegadores durante las auditorías, lo que ayuda a comprender cómo un navegador puede comportarse de manera diferente.
+- **Enlaces de Tutoriales / Información**: [Multi-Browser Highlighting Tutorial](https://www.youtube.com/results?search_query=Multi-Browser+Highlighting+Burp+extension)
+
+## 44 - Manual Scan Issues
+- **Resumen**: Permite realizar pruebas manuales y hacer un seguimiento de las vulnerabilidades encontradas durante las auditorías.
+- **Enlaces de Tutoriales / Información**: [Manual Scan Issues Tutorial](https://www.youtube.com/results?search_query=Manual+Scan+Issues+Burp+extension)
+
+## 45 - Handy Collaborator
+- **Resumen**: Permite realizar un uso más eficaz de Burp Collaborator, facilitando la interacción con la infraestructura de prueba y la generación de solicitudes colaborativas.
+- **Enlaces de Tutoriales / Información**: [Handy Collaborator Tutorial](https://www.youtube.com/results?search_query=Handy+Collaborator+Burp+extension)
+
+## 46 - Timeinator
+- **Resumen**: Permite medir el tiempo de respuesta de las solicitudes HTTP durante las pruebas de penetración, útil para detectar vulnerabilidades como los ataques de denegación de servicio (DoS).
+- **Enlaces de Tutoriales / Información**: [Timeinator Tutorial](https://www.youtube.com/results?search_query=Timeinator+Burp+extension)
+
+## 47 - Auto-Drop Requests
+- **Resumen**: Automatiza la eliminación de solicitudes maliciosas o no deseadas durante las auditorías de seguridad, lo que ayuda a mejorar la eficiencia de las pruebas.
+- **Enlaces de Tutoriales / Información**: [Auto-Drop Requests Tutorial](https://www.youtube.com/results?search_query=Auto-Drop+Requests+Burp+extension)
+
+## 48 - Scope Monitor
+- **Resumen**: Permite monitorear el alcance de las pruebas de seguridad y asegura que las solicitudes y respuestas se mantengan dentro del área definida de pruebas.
+- **Enlaces de Tutoriales / Información**: [Scope Monitor Tutorial](https://www.youtube.com/results?search_query=Scope+Monitor+Burp+extension)
+
+## 49 - Taborator
+- **Resumen**: Ayuda a gestionar las tareas de prueba y mejora la eficiencia de los escaneos al permitir la ejecución de pruebas automatizadas y manuales.
+- **Enlaces de Tutoriales / Información**: [Taborator Tutorial](https://www.youtube.com/results?search_query=Taborator+Burp+extension)
+
+## 50 - Pip3line
+- **Resumen**: Automatiza y mejora la gestión de múltiples solicitudes y respuestas HTTP, ayudando en la auditoría de grandes volúmenes de tráfico.
+- **Enlaces de Tutoriales / Información**: [Pip3line Tutorial](https://www.youtube.com/results?search_query=Pip3line+Burp+extension)
+
+## 51 - Bookmarks
+- **Resumen**: Permite marcar y organizar las solicitudes HTTP o las URL en Burp Suite para facilitar el acceso rápido y la referencia en las auditorías.
+- **Enlaces de Tutoriales / Información**: [Bookmarks Tutorial](https://www.youtube.com/results?search_query=Bookmarks+Burp+extension)
+
+## 52 - Response Pattern Matcher
+- **Resumen**: Busca patrones específicos en las respuestas HTTP para identificar vulnerabilidades o anomalías durante las pruebas de seguridad.
+- **Enlaces de Tutoriales / Información**: [Response Pattern Matcher Tutorial](https://www.youtube.com/results?search_query=Response+Pattern+Matcher+Burp+extension)
+
+## 53 - Attack Surface Detector
+- **Resumen**: Analiza las rutas de entrada y salida en una aplicación web, permitiendo detectar posibles superficies de ataque para los pentesters.
+- **Enlaces de Tutoriales / Información**: [Attack Surface Detector Tutorial](https://www.youtube.com/results?search_query=Attack+Surface+Detector+Burp+extension)
+
+## 54 - Backup Finder
+- **Resumen**: Permite encontrar archivos de copia de seguridad expuestos en una aplicación web, que podrían contener información sensible.
+- **Enlaces de Tutoriales / Información**: [Backup Finder Tutorial](https://www.youtube.com/results?search_query=Backup+Finder+Burp+extension)
+
+## 55 - Diff Last Response
+- **Resumen**: Compara las respuestas HTTP anteriores con la respuesta actual para detectar diferencias que puedan indicar vulnerabilidades o cambios maliciosos.
+- **Enlaces de Tutoriales / Información**: [Diff Last Response Tutorial](https://www.youtube.com/results?search_query=Diff+Last+Response+Burp+extension)
+
+## 56 - SocketSleuth
+- **Resumen**: Detecta problemas de comunicación entre el navegador y los servidores al observar las conexiones a través de los sockets.
+- **Enlaces de Tutoriales / Información**: [SocketSleuth Tutorial](https://www.youtube.com/results?search_query=SocketSleuth+Burp+extension)
+
+## 57 - MagicByteSelector
+- **Resumen**: Analiza el encabezado de tipo de archivo en los archivos subidos para detectar archivos maliciosos que podrían pasar por alto en el análisis de seguridad estándar.
+- **Enlaces de Tutoriales / Información**: [MagicByteSelector Tutorial](https://www.youtube.com/results?search_query=MagicByteSelector+Burp+extension)
+
+## 58 - CookieMonster
+- **Resumen**: Permite explorar y manipular cookies de sesión en las aplicaciones web para auditar posibles vulnerabilidades relacionadas con la seguridad de sesión.
+- **Enlaces de Tutoriales / Información**: [CookieMonster Tutorial](https://www.youtube.com/results?search_query=CookieMonster+Burp+extension)
+
+## 59 - BatchRepeater
+- **Resumen**: Permite ejecutar múltiples solicitudes de manera secuencial para hacer pruebas automatizadas o pruebas de carga en un conjunto de parámetros o URL.
+- **Enlaces de Tutoriales / Información**: [BatchRepeater Tutorial](https://www.youtube.com/results?search_query=BatchRepeater+Burp+extension)
+
+## 60 - .NET Beautifier
+- **Resumen**: Mejora la legibilidad del código de aplicaciones .NET al formatear el código que se encuentra dentro de las respuestas HTTP.
+- **Enlaces de Tutoriales / Información**: [NET Beautifier Tutorial](https://www.youtube.com/results?search_query=.NET+Beautifier+Burp+extension)
+
+## 61 - JSON Query
+- **Resumen**: Permite realizar consultas de JSON de manera eficiente durante las pruebas de seguridad, facilitando la exploración de datos JSON en las respuestas.
+- **Enlaces de Tutoriales / Información**: [JSON Query Tutorial](https://www.youtube.com/results?search_query=JSON+Query+Burp+extension)
+
+## 62 - JSON Web Token
+- **Resumen**: Facilita el análisis y la manipulación de JSON Web Tokens (JWT), ayudando en la explotación de vulnerabilidades de autenticación.
+- **Enlaces de Tutoriales / Información**: [JSON Web Token Tutorial](https://www.youtube.com/results?search_query=JSON+Web+Token+Burp+extension)
+
+## 63 - Postman Integration
+- **Resumen**: Permite integrar Postman con Burp Suite para realizar pruebas de seguridad directamente en las colecciones de Postman.
+- **Enlaces de Tutoriales / Información**: [Postman Integration Tutorial](https://www.youtube.com/results?search_query=Postman+Integration+Burp+extension)
+
+## 64 - Browser Repeater
+- **Resumen**: Permite repetir solicitudes HTTP en el navegador, lo que facilita la ejecución de pruebas sin necesidad de interactuar directamente con Burp Suite.
+- **Enlaces de Tutoriales / Información**: [Browser Repeater Tutorial](https://www.youtube.com/results?search_query=Browser+Repeater+Burp+extension)
+
+## 65 - PDF Viewer
+- **Resumen**: Visualiza y audita archivos PDF desde Burp Suite, permitiendo analizar contenido PDF para encontrar posibles problemas de seguridad.
+- **Enlaces de Tutoriales / Información**: [PDF Viewer Tutorial](https://www.youtube.com/results?search_query=PDF+Viewer+Burp+extension)
+
+## 66 - PDF Metadata
+- **Resumen**: Extrae y analiza los metadatos de los archivos PDF, lo cual puede revelar información sensible o datos de configuración que podrían ser explotados.
+- **Enlaces de Tutoriales / Información**: [PDF Metadata Tutorial](https://www.youtube.com/results?search_query=PDF+Metadata+Burp+extension)
+
+## 67 - JSON Decoder
+- **Resumen**: Decodifica y procesa respuestas en formato JSON para facilitar la exploración de posibles vulnerabilidades en las aplicaciones web que usan este formato.
+- **Enlaces de Tutoriales / Información**: [JSON Decoder Tutorial](https://www.youtube.com/results?search_query=JSON+Decoder+Burp+extension)
+
+## 68 - Decoder Improved
+- **Resumen**: Mejora las capacidades de decodificación de Burp Suite, permitiendo decodificar y codificar diferentes formatos de datos durante las auditorías de seguridad.
+- **Enlaces de Tutoriales / Información**: [Decoder Improved Tutorial](https://www.youtube.com/results?search_query=Decoder+Improved+Burp+extension)
+
+## 69 - AWS Security Checks
+- **Resumen**: Escanea configuraciones y vulnerabilidades en servicios de Amazon Web Services (AWS), para identificar posibles fallos de seguridad.
+- **Enlaces de Tutoriales / Información**: [AWS Security Checks Tutorial](https://www.youtube.com/results?search_query=AWS+Security+Checks+Burp+extension)
+
+## 70 - SAML Raider
+- **Resumen**: Explora y audita vulnerabilidades en el protocolo SAML (Security Assertion Markup Language), utilizado para la autenticación y autorización.
+- **Enlaces de Tutoriales / Información**: [SAML Raider Tutorial](https://www.youtube.com/results?search_query=SAML+Raider+Burp+extension)
+
+## 71 - OAuth Scan
+- **Resumen**: Analiza implementaciones de OAuth para detectar vulnerabilidades relacionadas con la autenticación y la autorización de usuarios.
+- **Enlaces de Tutoriales / Información**: [OAuth Scan Tutorial](https://www.youtube.com/results?search_query=OAuth+Scan+Burp+extension)
+
+## 72 - OAuth Authentication
+- **Resumen**: Ayuda a realizar pruebas de seguridad en sistemas que implementan la autenticación OAuth, un protocolo común para autorización.
+- **Enlaces de Tutoriales / Información**: [OAuth Authentication Tutorial](https://www.youtube.com/results?search_query=OAuth+Authentication+Burp+extension)
+
+## 73 - EsPReSSO
+- **Resumen**: Facilita las pruebas de seguridad de servicios basados en Single Sign-On (SSO), asegurando que las implementaciones de autenticación estén libres de vulnerabilidades.
+- **Enlaces de Tutoriales / Información**: [EsPReSSO Tutorial](https://www.youtube.com/results?search_query=EsPReSSO+Burp+extension)
+
+## 74 - SAML Encoder/Decoder
+- **Resumen**: Proporciona herramientas para codificar y decodificar solicitudes y respuestas SAML durante las pruebas de seguridad.
+- **Enlaces de Tutoriales / Información**: [SAML Encoder/Decoder Tutorial](https://www.youtube.com/results?search_query=SAML+Encoder+Decoder+Burp+extension)
+
+## 75 - SAML Editor
+- **Resumen**: Permite modificar solicitudes y respuestas SAML en tiempo real, lo que facilita las pruebas de seguridad y explotación de vulnerabilidades.
+- **Enlaces de Tutoriales / Información**: [SAML Editor Tutorial](https://www.youtube.com/results?search_query=SAML+Editor+Burp+extension)
+## 76 - PeopleSoft
+- **Resumen**: Herramienta para auditar aplicaciones PeopleSoft en busca de vulnerabilidades específicas en su implementación.
+- **Enlaces de Tutoriales / Información**: [PeopleSoft Tutorial](https://www.youtube.com/results?search_query=PeopleSoft+Burp+extension)
+
+## 77 - Token Extractor
+- **Resumen**: Extrae tokens de seguridad de las solicitudes y respuestas HTTP para realizar pruebas de autenticación o secuestro de sesión.
+- **Enlaces de Tutoriales / Información**: [Token Extractor Tutorial](https://www.youtube.com/results?search_query=Token+Extractor+Burp+extension)
+
+## 78 - SAMLRequest
+- **Resumen**: Facilita la creación y modificación de solicitudes SAML durante las pruebas de seguridad, identificando vulnerabilidades relacionadas con la autenticación SAML.
+- **Enlaces de Tutoriales / Información**: [SAMLRequest Tutorial](https://www.youtube.com/results?search_query=SAMLRequest+Burp+extension)
+
+## 79 - SignSaboteur
+- **Resumen**: Permite modificar firmas digitales para verificar la seguridad de la firma de los mensajes en las aplicaciones web.
+- **Enlaces de Tutoriales / Información**: [SignSaboteur Tutorial](https://www.youtube.com/results?search_query=SignSaboteur+Burp+extension)
+
+## 80 - Site Map Extractor
+- **Resumen**: Extrae y muestra el mapa del sitio web, proporcionando un análisis detallado de las páginas y rutas disponibles en una aplicación web.
+- **Enlaces de Tutoriales / Información**: [Site Map Extractor Tutorial](https://www.youtube.com/results?search_query=Site+Map+Extractor+Burp+extension)
+
+## 81 - Filter OPTIONS Method
+- **Resumen**: Realiza un análisis de las respuestas del método HTTP OPTIONS para identificar posibles puntos débiles en la configuración del servidor web.
+- **Enlaces de Tutoriales / Información**: [Filter OPTIONS Method Tutorial](https://www.youtube.com/results?search_query=Filter+OPTIONS+Method+Burp+extension)
+
+## 82 - Subdomain Extractor
+- **Resumen**: Extrae subdominios asociados a un dominio principal, ayudando en el descubrimiento de posibles vectores de ataque.
+- **Enlaces de Tutoriales / Información**: [Subdomain Extractor Tutorial](https://www.youtube.com/results?search_query=Subdomain+Extractor+Burp+extension)
+
+## 83 - JavaScript Security
+- **Resumen**: Analiza aplicaciones web basadas en JavaScript en busca de vulnerabilidades relacionadas con XSS, inyección de código y otros errores de seguridad.
+- **Enlaces de Tutoriales / Información**: [JavaScript Security Tutorial](https://www.youtube.com/results?search_query=JavaScript+Security+Burp+extension)
+
+## 84 - Reflected Parameters
+- **Resumen**: Escanea parámetros reflejados en las respuestas HTTP para detectar posibles vulnerabilidades de inyección, como XSS y SQLi.
+- **Enlaces de Tutoriales / Información**: [Reflected Parameters Tutorial](https://www.youtube.com/results?search_query=Reflected+Parameters+Burp+extension)
+
+## 85 - XSS Cheatsheet
+- **Resumen**: Proporciona una lista de técnicas comunes para detectar y explotar vulnerabilidades XSS en las aplicaciones web.
+- **Enlaces de Tutoriales / Información**: [XSS Cheatsheet Tutorial](https://www.youtube.com/results?search_query=XSS+Cheatsheet+Burp+extension)
+
+## 86 - AuthMatrix
+- **Resumen**: Analiza y visualiza el comportamiento de autenticación de la aplicación web, permitiendo detectar posibles fallos en el manejo de autenticación.
+- **Enlaces de Tutoriales / Información**: [AuthMatrix Tutorial](https://www.youtube.com/results?search_query=AuthMatrix+Burp+extension)
+
+## 87 - AutoRepeater
+- **Resumen**: Realiza repeticiones automáticas de solicitudes HTTP, lo cual facilita la detección de vulnerabilidades al realizar pruebas repetitivas de manera eficiente.
+- **Enlaces de Tutoriales / Información**: [AutoRepeater Tutorial](https://www.youtube.com/results?search_query=AutoRepeater+Burp+extension)
+
+## 88 - Paramalyzer
+- **Resumen**: Permite realizar un análisis más profundo de los parámetros de las solicitudes HTTP, ayudando a detectar vulnerabilidades que puedan estar presentes.
+- **Enlaces de Tutoriales / Información**: [Paramalyzer Tutorial](https://www.youtube.com/results?search_query=Paramalyzer+Burp+extension)
+
+## 89 - Auth Analyzer
+- **Resumen**: Ayuda a auditar y analizar el proceso de autenticación de aplicaciones web para encontrar posibles fallos de seguridad.
+- **Enlaces de Tutoriales / Información**: [Auth Analyzer Tutorial](https://www.youtube.com/results?search_query=Auth+Analyzer+Burp+extension)
+
+## 90 - CSurfer
+- **Resumen**: Permite auditar el proceso de autenticación basada en cookies y sesiones, facilitando la identificación de vulnerabilidades de seguridad.
+- **Enlaces de Tutoriales / Información**: [CSurfer Tutorial](https://www.youtube.com/results?search_query=CSurfer+Burp+extension)
+
+## 91 - Additional CSRF Checks/EasyCSRF
+- **Resumen**: Realiza verificaciones adicionales de seguridad contra ataques de CSRF (Cross-Site Request Forgery), ayudando a proteger las aplicaciones web de esta amenaza.
+- **Enlaces de Tutoriales / Información**: [EasyCSRF Tutorial](https://www.youtube.com/results?search_query=EasyCSRF+Burp+extension)
+
+## 92 - Java-Deserialization-Scanner
+- **Resumen**: Detecta vulnerabilidades relacionadas con la deserialización en aplicaciones Java, un tipo de vulnerabilidad crítica en la que los atacantes pueden ejecutar código malicioso.
+- **Enlaces de Tutoriales / Información**: [Java Deserialization Scanner Tutorial](https://www.youtube.com/results?search_query=Java-Deserialization-Scanner+Burp+extension)
+
+## 93 - CustomDeserializer
+- **Resumen**: Permite crear y personalizar deserializadores, lo que facilita la explotación de vulnerabilidades de deserialización en aplicaciones web.
+- **Enlaces de Tutoriales / Información**: [CustomDeserializer Tutorial](https://www.youtube.com/results?search_query=CustomDeserializer+Burp+extension)
+
+## 94 - HTTP Methods Discloser
+- **Resumen**: Identifica los métodos HTTP habilitados en un servidor, lo cual puede ser útil para descubrir posibles configuraciones incorrectas.
+- **Enlaces de Tutoriales / Información**: [HTTP Methods Discloser Tutorial](https://www.youtube.com/results?search_query=HTTP+Methods+Discloser+Burp+extension)
+
+## 95 - CO2
+- **Resumen**: Permite realizar una evaluación avanzada de las cabeceras HTTP para detectar vulnerabilidades y configuraciones incorrectas de seguridad.
+- **Enlaces de Tutoriales / Información**: [CO2 Tutorial](https://www.youtube.com/results?search_query=CO2+Burp+extension)
+
+## 96 - Burp-XSS-SQL-Plugin
+- **Resumen**: Extensión para detectar vulnerabilidades de XSS y SQLi en las aplicaciones web, mejorando las capacidades de exploración de Burp Suite.
+- **Enlaces de Tutoriales / Información**: [Burp-XSS-SQL-Plugin Tutorial](https://www.youtube.com/results?search_query=Burp-XSS-SQL-Plugin+Burp+extension)
+
+## 97 - NoSQL Scanner
+- **Resumen**: Realiza un escaneo específico para detectar vulnerabilidades en bases de datos NoSQL como MongoDB, CouchDB, entre otras.
+- **Enlaces de Tutoriales / Información**: [NoSQL Scanner Tutorial](https://www.youtube.com/results?search_query=NoSQL+Scanner+Burp+extension)
+
+## 98 - Office OpenXML Editor
+- **Resumen**: Permite editar y auditar archivos Office OpenXML, un formato comúnmente utilizado por documentos de Microsoft Office, buscando posibles vulnerabilidades en los metadatos o contenido.
+- **Enlaces de Tutoriales / Información**: [Office OpenXML Editor Tutorial](https://www.youtube.com/results?search_query=Office+OpenXML+Editor+Burp+extension)
+
+## 99 - Content Type Converter
+- **Resumen**: Ayuda a convertir tipos de contenido entre diferentes formatos (por ejemplo, de JSON a XML), lo que puede ser útil para manipular la entrada de las aplicaciones durante las pruebas de seguridad.
+- **Enlaces de Tutoriales / Información**: [Content Type Converter Tutorial](https://www.youtube.com/results?search_query=Content+Type+Converter+Burp+extension)
+
+## 100 - WAFDetect
+- **Resumen**: Detecta la presencia de un WAF (Web Application Firewall) en la aplicación web, lo que ayuda a los pentesters a adaptarse a las defensas del servidor.
+- **Enlaces de Tutoriales / Información**: [WAFDetect Tutorial](https://www.youtube.com/results?search_query=WAFDetect+Burp+extension)
+## 101 - TokenJar
+- **Resumen**: Esta extensión ayuda a almacenar, gestionar y extraer tokens de sesión de múltiples solicitudes, lo que facilita la automatización de pruebas de seguridad de autenticación.
+- **Enlaces de Tutoriales / Información**: [TokenJar Tutorial](https://www.youtube.com/results?search_query=TokenJar+Burp+extension)
+
+## 102 - Session Auth
+- **Resumen**: Esta extensión permite auditar la autenticación de sesión para verificar si las sesiones están correctamente configuradas y protegidas frente a ataques.
+- **Enlaces de Tutoriales / Información**: [Session Auth Tutorial](https://www.youtube.com/results?search_query=Session+Auth+Burp+extension)
+
+## 103 - Session Timeout Test
+- **Resumen**: Realiza pruebas sobre la configuración de los tiempos de expiración de sesión para detectar posibles vulnerabilidades en el manejo de sesiones de usuario.
+- **Enlaces de Tutoriales / Información**: [Session Timeout Test Tutorial](https://www.youtube.com/results?search_query=Session+Timeout+Test+Burp+extension)
+
+## 104 - Cookie Decrypter
+- **Resumen**: Permite descifrar las cookies de sesión para verificar si las configuraciones de seguridad de las cookies son adecuadas.
+- **Enlaces de Tutoriales / Información**: [Cookie Decrypter Tutorial](https://www.youtube.com/results?search_query=Cookie+Decrypter+Burp+extension)
+
+## 105 - CORS* - Additional CORS Checks
+- **Resumen**: Extensión para realizar verificaciones adicionales de CORS (Cross-Origin Resource Sharing) en las aplicaciones web, ayudando a identificar configuraciones incorrectas.
+- **Enlaces de Tutoriales / Información**: [CORS Checks Tutorial](https://www.youtube.com/results?search_query=CORS+Additional+Checks+Burp+extension)
+
+## 106 - Command Injection Attacker
+- **Resumen**: Permite automatizar ataques de inyección de comandos en aplicaciones web, buscando posibles vulnerabilidades que puedan ser explotadas.
+- **Enlaces de Tutoriales / Información**: [Command Injection Attacker Tutorial](https://www.youtube.com/results?search_query=Command+Injection+Attacker+Burp+extension)
+
+## 107 - tplmap Burp Extension
+- **Resumen**: Esta extensión se utiliza para probar vulnerabilidades de inyección en plantillas PHP (template injection), como las que se encuentran en aplicaciones que usan motores como Twig, Blade, etc.
+- **Enlaces de Tutoriales / Información**: [tplmap Tutorial](https://www.youtube.com/results?search_query=tplmap+Burp+extension)
+
+## 108 - Type Confusion Extension
+- **Resumen**: Ayuda a detectar vulnerabilidades de confusión de tipos en aplicaciones web, un fallo en la forma en que los datos son procesados o interpretados.
+- **Enlaces de Tutoriales / Información**: [Type Confusion Extension Tutorial](https://www.youtube.com/results?search_query=Type+Confusion+Burp+extension)
+
+## 109 - Encode IP
+- **Resumen**: Permite codificar direcciones IP de manera que puedan ser utilizadas para bypass de controles de seguridad, como WAFs o filtros.
+- **Enlaces de Tutoriales / Información**: [Encode IP Tutorial](https://www.youtube.com/results?search_query=Encode+IP+Burp+extension)
+
+## 110 - Bypass WAF
+- **Resumen**: Extensión diseñada para realizar pruebas de bypass de WAF (Web Application Firewalls), ayudando a los pentesters a evadir las defensas.
+- **Enlaces de Tutoriales / Información**: [Bypass WAF Tutorial](https://www.youtube.com/results?search_query=Bypass+WAF+Burp+extension)
+
+## 111 - Random IP Address Header
+- **Resumen**: Permite generar cabeceras HTTP con direcciones IP aleatorias para evadir filtros basados en IP.
+- **Enlaces de Tutoriales / Información**: [Random IP Address Header Tutorial](https://www.youtube.com/results?search_query=Random+IP+Address+Header+Burp+extension)
+
+## 112 - WAF Bypass
+- **Resumen**: Permite realizar pruebas para evadir mecanismos de seguridad en aplicaciones web basados en WAF, analizando las respuestas y realizando ajustes en los parámetros.
+- **Enlaces de Tutoriales / Información**: [WAF Bypass Tutorial](https://www.youtube.com/results?search_query=WAF+Bypass+Burp+extension)
+
+## 113 - WAF Manual Bypass Data
+- **Resumen**: Permite realizar un bypass manual de WAF utilizando datos personalizados, lo que puede ser útil cuando las técnicas automáticas no funcionan.
+- **Enlaces de Tutoriales / Información**: [WAF Manual Bypass Data Tutorial](https://www.youtube.com/results?search_query=WAF+Manual+Bypass+Data+Burp+extension)
+
+## 114 - Log Requests to SQLite
+- **Resumen**: Permite almacenar solicitudes HTTP en una base de datos SQLite para realizar un análisis posterior.
+- **Enlaces de Tutoriales / Información**: [Log Requests to SQLite Tutorial](https://www.youtube.com/results?search_query=Log+Requests+to+SQLite+Burp+extension)
+
+## 115 - Custom Logger
+- **Resumen**: Esta extensión permite personalizar el registro de información de las solicitudes HTTP, facilitando la recolección de datos útiles para auditorías de seguridad.
+- **Enlaces de Tutoriales / Información**: [Custom Logger Tutorial](https://www.youtube.com/results?search_query=Custom+Logger+Burp+extension)
+
+## 116 - Log Viewer
+- **Resumen**: Visualiza los registros de las solicitudes HTTP almacenadas para analizarlas y extraer información importante sobre el tráfico de la aplicación.
+- **Enlaces de Tutoriales / Información**: [Log Viewer Tutorial](https://www.youtube.com/results?search_query=Log+Viewer+Burp+extension)
+
+## 117 - Pentest Mapper
+- **Resumen**: Mapea los endpoints de una aplicación web, proporcionando una representación gráfica del panorama de seguridad de la aplicación.
+- **Enlaces de Tutoriales / Información**: [Pentest Mapper Tutorial](https://www.youtube.com/results?search_query=Pentest+Mapper+Burp+extension)
+
+## 118 - PsychoPATH
+- **Resumen**: Ayuda en el descubrimiento y explotación de vulnerabilidades del tipo "Path Traversal", permitiendo la manipulación de rutas en solicitudes HTTP.
+- **Enlaces de Tutoriales / Información**: [PsychoPATH Tutorial](https://www.youtube.com/results?search_query=PsychoPATH+Burp+extension)
+
+## 119 - Meth0dMan
+- **Resumen**: Herramienta para realizar pruebas de falsificación de métodos HTTP en aplicaciones web para evaluar cómo responden a solicitudes manipuladas.
+- **Enlaces de Tutoriales / Información**: [Meth0dMan Tutorial](https://www.youtube.com/results?search_query=Meth0dMan+Burp+extension)
+
+## 120 - ParaForge
+- **Resumen**: Permite modificar las solicitudes HTTP de manera dinámica, forjando parámetros para probar el comportamiento de la aplicación frente a valores no esperados.
+- **Enlaces de Tutoriales / Información**: [ParaForge Tutorial](https://www.youtube.com/results?search_query=ParaForge+Burp+extension)
+
+## 121 - GAP (Get All Parameters, Links, and Words)
+- **Resumen**: Escanea una aplicación web para obtener todos los parámetros, enlaces y palabras claves que pueden ser útiles para realizar un análisis exhaustivo de seguridad.
+- **Enlaces de Tutoriales / Información**: [GAP Tutorial](https://www.youtube.com/results?search_query=GAP+Burp+extension)
+
+## 122 - URL Fuzzer 401/403 Bypass
+- **Resumen**: Ayuda a realizar fuzzing de URLs para evadir los códigos de estado HTTP 401 y 403, que indican problemas de autorización.
+- **Enlaces de Tutoriales / Información**: [URL Fuzzer Tutorial](https://www.youtube.com/results?search_query=URL+Fuzzer+401+403+Bypass+Burp+extension)
+
+## 123 - Length Extension Attacks
+- **Resumen**: Realiza pruebas para detectar vulnerabilidades de extensión de longitud, un tipo de ataque contra algoritmos de hash como MD5 y SHA1.
+- **Enlaces de Tutoriales / Información**: [Length Extension Attacks Tutorial](https://www.youtube.com/results?search_query=Length+Extension+Attacks+Burp+extension)
+
+## 124 - Padding Oracle
+- **Resumen**: Realiza ataques de padding oracle en cifrados simétricos, buscando vulnerabilidades que permitan descifrar datos cifrados.
+- **Enlaces de Tutoriales / Información**: [Padding Oracle Tutorial](https://www.youtube.com/results?search_query=Padding+Oracle+Burp+extension)
+
+## 125 - OpenAPI Parser
+- **Resumen**: Esta extensión permite analizar y auditar las definiciones de la API OpenAPI para encontrar posibles problemas de seguridad en los endpoints y en la validación de datos.
+- **Enlaces de Tutoriales / Información**: [OpenAPI Parser Tutorial](https://www.youtube.com/results?search_query=OpenAPI+Parser+Burp+extension)
+## 126 - UPnP Hunter
+- **Resumen**: Permite identificar dispositivos que utilizan UPnP (Universal Plug and Play), buscando vulnerabilidades relacionadas con servicios expuestos a la red.
+- **Enlaces de Tutoriales / Información**: [UPnP Hunter Tutorial](https://www.youtube.com/results?search_query=UPnP+Hunter+Burp+extension)
+
+## 127 - nmap
+- **Resumen**: Integra la herramienta Nmap con Burp Suite para realizar escaneos de puertos y descubrir servicios y vulnerabilidades en la red.
+- **Enlaces de Tutoriales / Información**: [nmap Tutorial](https://www.youtube.com/results?search_query=nmap+Burp+extension)
+
+## 128 - YesWeBurp
+- **Resumen**: Esta extensión ayuda a realizar auditorías en aplicaciones web al proporcionar un análisis automatizado de vulnerabilidades, identificando parámetros y endpoints expuestos.
+- **Enlaces de Tutoriales / Información**: [YesWeBurp Tutorial](https://www.youtube.com/results?search_query=YesWeBurp+Burp+extension)
+
+## 129 - CVSS
+- **Resumen**: Calcula el puntaje CVSS (Common Vulnerability Scoring System) para las vulnerabilidades encontradas, permitiendo priorizar las pruebas de seguridad.
+- **Enlaces de Tutoriales / Información**: [CVSS Tutorial](https://www.youtube.com/results?search_query=CVSS+Burp+extension)
+
+## 130 - Similar Request Excluder
+- **Resumen**: Ayuda a excluir solicitudes similares durante el escaneo, evitando la duplicación de resultados y mejorando la eficiencia de las pruebas de penetración.
+- **Enlaces de Tutoriales / Información**: [Similar Request Excluder Tutorial](https://www.youtube.com/results?search_query=Similar+Request+Excluder+Burp+extension)
+
+## 131 - Target Redirector
+- **Resumen**: Permite redirigir el tráfico a un objetivo diferente, facilitando el análisis de rutas y pruebas de redirección en las aplicaciones web.
+- **Enlaces de Tutoriales / Información**: [Target Redirector Tutorial](https://www.youtube.com/results?search_query=Target+Redirector+Burp+extension)
+
+## 132 - Request Timer
+- **Resumen**: Mide el tiempo de respuesta de las solicitudes HTTP, ayudando a identificar posibles problemas de rendimiento o de seguridad que podrían ser explotados.
+- **Enlaces de Tutoriales / Información**: [Request Timer Tutorial](https://www.youtube.com/results?search_query=Request+Timer+Burp+extension)
+
+## 133 - HUNT
+- **Resumen**: Realiza un análisis exhaustivo de los parámetros vulnerables en las URL de la aplicación web, ayudando a identificar puntos débiles en la seguridad.
+- **Enlaces de Tutoriales / Información**: [HUNT Tutorial](https://www.youtube.com/results?search_query=HUNT+Burp+extension)
+
+## 134 - Autowasp
+- **Resumen**: Esta extensión automatiza el escaneo de vulnerabilidades OWASP, detectando debilidades comunes de seguridad en aplicaciones web de manera rápida y eficiente.
+- **Enlaces de Tutoriales / Información**: [Autowasp Tutorial](https://www.youtube.com/results?search_query=Autowasp+Burp+extension)
+
+## 135 - Custom Parameter Handler
+- **Resumen**: Permite crear y gestionar parámetros personalizados para realizar pruebas de penetración más específicas y adaptadas a las necesidades de la aplicación.
+- **Enlaces de Tutoriales / Información**: [Custom Parameter Handler Tutorial](https://www.youtube.com/results?search_query=Custom+Parameter+Handler+Burp+extension)
+
+## 136 - Unide_a Chino
+- **Resumen**: Es una extensión para la conversión y manipulación de cadenas en chino, facilitando pruebas en aplicaciones web que usan caracteres o codificación asiática.
+- **Enlaces de Tutoriales / Información**: [Unide_a Chino Tutorial](https://www.youtube.com/results?search_query=Unide_a+Chino+Burp+extension)
+
+## 137 - BurpelFish
+- **Resumen**: Permite realizar pruebas de autenticación multifactorial (MFA) en aplicaciones web, ayudando a auditar la implementación de esta capa de seguridad.
+- **Enlaces de Tutoriales / Información**: [BurpelFish Tutorial](https://www.youtube.com/results?search_query=BurpelFish+Burp+extension)
+
+## 138 - Tea Break
+- **Resumen**: Extensión que proporciona una pausa de tiempo configurable durante las pruebas, permitiendo simular retardos en las solicitudes para evaluar comportamientos en condiciones de alta latencia.
+- **Enlaces de Tutoriales / Información**: [Tea Break Tutorial](https://www.youtube.com/results?search_query=Tea+Break+Burp+extension)
+
+## 139 - Burp Customizer
+- **Resumen**: Permite personalizar y ajustar la interfaz de Burp Suite, agregando funciones personalizadas o modificando la forma en que las herramientas se muestran en el panel.
+- **Enlaces de Tutoriales / Información**: [Burp Customizer Tutorial](https://www.youtube.com/results?search_query=Burp+Customizer+Burp+extension)
+
+## 140 - HTTP Request Smuggler
+- **Resumen**: Ayuda a realizar pruebas de manipulación de solicitudes HTTP para detectar vulnerabilidades de "HTTP Request Smuggling", que pueden ser explotadas por atacantes.
+- **Enlaces de Tutoriales / Información**: [HTTP Request Smuggler Tutorial](https://www.youtube.com/results?search_query=HTTP+Request+Smuggler+Burp+extension)
+
+## 141 - Rule Detector
+- **Resumen**: Detecta reglas en las solicitudes HTTP que puedan indicar patrones de filtrado o seguridad, ayudando a identificar puntos débiles en la aplicación.
+- **Enlaces de Tutoriales / Información**: [Rule Detector Tutorial](https://www.youtube.com/results?search_query=Rule+Detector+Burp+extension)
+
+## 142 - nQL Scanner
+- **Resumen**: Realiza escaneos automáticos para encontrar consultas nQL (NoSQL Query Language) vulnerables en bases de datos NoSQL como MongoDB.
+- **Enlaces de Tutoriales / Información**: [nQL Scanner Tutorial](https://www.youtube.com/results?search_query=nQL+Scanner+Burp+extension)
+
+## 143 - Attack Surface Detector
+- **Resumen**: Mapea y analiza la superficie de ataque de una aplicación web, identificando puntos vulnerables que podrían ser explotados por atacantes.
+- **Enlaces de Tutoriales / Información**: [Attack Surface Detector Tutorial](https://www.youtube.com/results?search_query=Attack+Surface+Detector+Burp+extension)
