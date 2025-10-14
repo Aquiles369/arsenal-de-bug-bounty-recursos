@@ -52,35 +52,6 @@ Este repositorio elimina ese problema concentrando todo el conocimiento crítico
 💥 En resumen: transforma un entorno caótico en un arsenal ordenado, escalable y listo para usar, optimizando cada paso de la caza.</a>.** 
 
 <br>
-
-
-<details>
-<summary><strong>Índice</strong></summary>
-
-- [Resumen rápido](#resumen-rapido)
-- [Problema que resuelve](#problema-que-resuelve)
-- [Qué aporta y cómo beneficia](#que-aporta-y-como-beneficia)
-- [Metodologías +25](#metodologias-25)
-- [Dominios](#dominios)
-- [Estándares](#estandares)
-- [Extra](#extra)
-- [Prompt IA](#promt-ia)
-- [Core](#core)
-- [Recon](#recon)
-- [Plantillas de informes](#plantillas-informes)
-- [Plataformas para informes](#plataformas-para-informes)
-- [Bypass](#bypass)
-- [Sitios interesantes](#sitios-interesantes)
-- [Gestión](#gestion)
-- [Fuentes](#fuentes)
-- [Tips](#tips)
-- [Recursos extras](#recursos-extras)
-
-</details>
-
-
-
-
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
