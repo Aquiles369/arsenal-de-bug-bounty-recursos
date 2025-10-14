@@ -27,7 +27,7 @@ No es una simple colección de links: está organizado como una infraestructura 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br><br>
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXhvZzBlOTRha2tsazZ3dzBhNGFqdWtzYXRlenRpaWd2aTVsczJxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4ZEHd4101jXIfWcUKK/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
+### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDR1ZTRlZnNmY296dTlkdjc4ZmZ3cjE2NmI0dnh2Zmw5anRjcHJzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/W2WBS4R2thlXub0vI3/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
 **Hoy en día, un cazador de bugs tiene que saltar entre decenas de fuentes, PDFs, artículos, scripts, guías y estándares para reunir todo lo necesario. Esa fragmentación ralentiza el proceso, genera huecos metodológicos y obliga a improvisar.<br><br>
 Este repositorio elimina ese problema concentrando todo el conocimiento crítico del ciclo de caza en un solo lugar estructurado, desde el recon inicial hasta el envío de informes y la evasión avanzada de WAF.<br>
 ✔️ Elimina la pérdida de tiempo buscando información.<br>
@@ -36,7 +36,7 @@ Este repositorio elimina ese problema concentrando todo el conocimiento crítico
 ✔️ Convierte el proceso en algo repetible, optimizable y documentado.</a>.**
 <br><br>
 
-### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHE2YTMzcHZ3MTdwOWRkNWF2b3BvOGpsazFlZHRpdThzaG1wdGl5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AbWjauiuqyl8A7k2Ad/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzhtcWZzczNtanl3cHo0eDJ6YXFiMGNnemt3N2psbzE3cmxtdmVzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vuRc3owmolGzQYlhUR/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
 **• 📚 Metodologías (+25): recopila los enfoques de NahamSec, Jason Haddix y HackTricks, dándote una base táctica sólida para cada etapa del bug bounty.<br><br>
 🌐 Dominios y entornos: incluye recursos para APIs, CMS, documentación, LLMs y más, cubriendo todas las superficies de ataque posibles.<br><br>
 📏 Estándares: referencias clave como OWASP, OSSTMM y MITRE ATT&CK para asegurar que tu trabajo esté alineado con marcos reconocidos internacionalmente.<br><br>
@@ -57,7 +57,7 @@ Este repositorio elimina ese problema concentrando todo el conocimiento crítico
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNlYnR1N3Z1Z24zMTlzeGY5Z3Fhbm90NzlwdTA1eG51bmJiYTgyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qX7cKKUo6rOrEFG1RW/giphy.gif" width = 80px>  </picture> Resumen rápido
+### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBtYzhjYjZld2FxeGx6NTlzYjMwMTV1YmE1dWV5ZnA5bGEwMnl6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/YSev84x5uh4eUbKa39/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
 🏹 Bug Bounty Arsenal — Tu campo de batalla completo<br>
@@ -73,7 +73,7 @@ Este repositorio reúne y organiza todo lo que un cazador de vulnerabilidades ne
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Secciones & Categorías<br><br>
+### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa290ODJmYjVmd3prMnRrN2NkNXBwcmdlZncyZXB2d3dvNTVmejltaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gk3ut9Urw4NkRVaXHb/giphy.gif" width = 80px>  </picture> Secciones & Categorías<br><br>
 
 - Metodologías +25 <br>
 
@@ -163,7 +163,7 @@ Aquiles pues mire toda las que tiene -_-<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Promt IA<br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTJlbmRzdGIycHVxd3lscW5xY215dGJnN2ZtOGR1OXc2NHZqZzlxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kDZOF8xtuAdVjCTJk7/giphy.gif" width = 80px>  </picture> Promt IA<br><br>
 
 
 
@@ -180,7 +180,7 @@ IA<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Core<br><br>
+### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXplYWMzaWR2b3p0NW90dDlxNDhsMXVsa3l1b2F5MnF2cTBpb2NkcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/H4Wzx5SnwwR5lf0ICK/giphy.gif" width = 80px>  </picture> Core<br><br>
 
 
 
@@ -201,7 +201,7 @@ Core<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Recon<br><br>
+### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnQxNWxwZnVndHh2OWwyZm1vem8zdnpkZDZqMTM0bmFpNWF4bHNtaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jnED0Da59KfXY5QEv4/giphy.gif" width = 80px>  </picture> Recon<br><br>
 
 
 
@@ -225,7 +225,7 @@ Recon<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Plantillas informes <br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWNyYTdrZ282MHZ2NG43eW9odjc2aWNueDl4aG1zbGo2MXVwbjE1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WrancPwf63Kovsglwm/giphy.gif" width = 80px>  </picture> Plantillas informes <br><br>
 
 
 
@@ -244,11 +244,6 @@ Plantillas informes<br>
 • <a href="https://cloud.projectdiscovery.io/templates" target="_blank" rel="noopener">Plantilla Nuclei</a><br><br>
 
 
-<br>
-<picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
-<br>
-
-
 
 
 <br>
@@ -256,7 +251,7 @@ Plantillas informes<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Plataformas para informes <br><br>
+### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTVtbG50emZnenVtMGIwaTZ5eGs0dXdyb2RnYzNkbWdtY3Y0ZjVhbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Id6Hbkm00kVl12HhcL/giphy.gif" width = 80px>  </picture> Plataformas para informes <br><br>
 
 
 
@@ -283,9 +278,12 @@ Plataformas para informes<br>
 
 
 
+<br>
+<picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
+<br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Bypass <br><br>
+### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGZtbGIydzZ4aDk0NGZzdXY0eHRvZGpmeHkydDNheWcybzVqbnlhNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KEkzuW51BFknTTpJ1A/giphy.gif" width = 80px>  </picture> Bypass <br><br>
 
 
 
@@ -316,7 +314,7 @@ Bypass<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> sitio interesantes <br><br>
+### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWl4eWtuamw2MnM0MG1icG9kYWtuZjI0ZTNudGhxNW54dGZqYXdsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/mFr5BDKpU4bReh2dN3/giphy.gif" width = 80px>  </picture> sitio interesantes <br><br>
 
 
 
@@ -335,7 +333,7 @@ sitio interesantes<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Gestión <br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGwzNjJmcXF6d2NoNm42Z2RyOGFubm9vemxmeXR0amdoMDE1dnZxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LtLpYRENkX5AUHC7TU/giphy.gif" width = 80px>  </picture> Gestión <br><br>
 
 
 Gestión<br>
@@ -351,7 +349,7 @@ Gestión<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Fuentes <br><br>
+### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3dvNXJrZ2Q4ZTVxcThoc204cXAydXY3Yjh5YXFzbmQ3cHNmY3BubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cKKbfNHIfR0bHaxere/giphy.gif" width = 80px>  </picture> Fuentes <br><br>
 
 
 Fuentes<br>
@@ -380,7 +378,7 @@ Fuentes<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Tips <br><br>
+### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTl1OHBlYWpyNXU4dXI4eGVnYndlbGl2dDA5ZHM2d3o2cmh1NW43NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1UXPxRCvXOH2niS8ie/giphy.gif" width = 80px>  </picture> Tips <br><br>
 
 
 Tips<br>
@@ -405,7 +403,7 @@ Tips<br>
 <br>
 
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHliczM5ODZvOHJxY21mcGFwMDQ4Y3l3MDJmN3VwbjJiMDhtaHZkOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IiCU3HoPN5YtnD98qh/giphy.gif" width = 80px>  </picture> Recursos extras <br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWNyYTdrZ282MHZ2NG43eW9odjc2aWNueDl4aG1zbGo2MXVwbjE1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WrancPwf63Kovsglwm/giphy.gif" width = 80px>  </picture> Recursos extras <br><br>
 
 
 Recursos extras<br>
