@@ -1,0 +1,24 @@
+tips
+el encabezado X-Forwarded-For resulta ser el lugar perfecto para ocultar tus cargas útiles ciegas de XSS o inyección SQL. ¡ Gracias por el consejo, Linus!
+¿Cuál es la mejor manera de provocar errores que expongan información confidencial?
+➡️ Cadenas largas en parámetros POST (más de 50.000 caracteres)
+➡️ Usar el "número de Euler" (e) en números para obtener valores exponencialmente grandes. ¡}
+¡A veces, solo necesitas un carácter! Usa % como comodín para códigos, referencias de reserva o incluso números de seguro social. 🃏 ¡
+Usa los siguientes rangos "invisibles" en tus cargas 👇 #BugBountyTip
+💥0x00 ➡️0x2F
+💥0x3A ➡️0x40
+💥0x5B ➡️0x60
+💥0x7B ➡️0xFF
+XSS con htmlentities()
+¿Creías que htmlentities() siempre protegía contra XSS? ¡x54x68x69x6ex6bx20x61x67x61x69x6ex21! ¡Gracias por el
+Devolución de llamada JSONp
+Añadir un parámetro a un endpoint puede generar miles de 💰. ¡Gracias por el consejo, 
+XSS en API
+Consejo de recompensa por errores: si ninguna de tus cargas XSS se activa, ¡intenta insertarlas a través de la API! 😈
+ ¿Tienes XSS sin acceso a las cookies ni a los tokens CSRF? Intenta intercambiar el token CSRF de la víctima por el tuyo. Suele funcionar y genera mayor impacto y recompensa. 🤓💰
+Adquisición de cuentas de JWT
+⚠️Los entornos de pruebas abiertos pueden llevar a la toma de control de la cuenta de producción
+✔️Si usan una base de datos separada, pero el mismo secreto JWT
+✔️Si se usa el nombre de usuario o la dirección de correo electrónico como identificador
+stás firmando tus tokens JWT? Bien... a menos que los hackers puedan cambiar el algoritmo de firma a 𝘯𝘰𝘯𝘦𝘳. ¡Asegúrate de comprobar esto o @yassineaboukir lo hará por ti y reclamará otra 
+ Comprueba las respuestas JSON para ver si tienen propiedades adicionales y envíalas de vuelta!
