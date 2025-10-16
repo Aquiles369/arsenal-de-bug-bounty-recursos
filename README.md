@@ -366,7 +366,7 @@ Extra<br>
 
 • <a href="https://www.infosecmatter.com/bug-bounty-tips/" target="_blank" rel="noopener">infosecmatter 7 categorias de bug bounty </a>
 
-• <a href="" target="_blank" rel="noopener">Canales de youtube varios </a>
+• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/canal_youtube_bug_bounty_muy_buenos.txt" target="_blank" rel="noopener">Canales de youtube varios </a>
 
 • <a href="https://0dayfans.com/" target="_blank" rel="noopener">0dayfans </a>
 
