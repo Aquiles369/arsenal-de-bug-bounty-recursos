@@ -154,7 +154,7 @@ Extra<br>
 • <a href="https://medium.com/@khaled.hassan/bugbountyprotip-collection-4a19e5b5b296" target="_blank" rel="noopener">khaled</a><br><br>
 
 
-Aquiles pues mire toda las que tiene -_-<br>
+• 🦅 Aquiles pues mire todas las que tiene 🦅<br>
 
 
 <br>
