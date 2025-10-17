@@ -192,10 +192,6 @@ Extra<br>
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/evolucion_bug_bounty.png" target="_blank" rel="noopener">Evolucion_bug_bounty.png</a>
 
 
-• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/extensiones_google.png" target="_blank" rel="noopener">Extensiones de bug bounty navegador</a>
-
-• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/extensiones_burp_suite" target="_blank" rel="noopener">Extensiones Burp Suite</a>
-
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/canal_youtube_bug_bounty_muy_buenos.txt" target="_blank" rel="noopener">Canales de Youtube y Comunicades, conferencia etc que hablan sobre Bug bounty</a>
 
@@ -305,7 +301,6 @@ Extra<br>
 
 
 
-• <a href="https://waf-bypass.com/" target="_blank" rel="noopener">Saltándonos las limitaciones del scope Bernardo Viqueira minutor 23,  primer tecnica </a>
 
 • <a href="https://afsh4ck.gitbook.io/ethical-hacking-cheatsheet/evasion-de-defensas/deteccion-y-evasion-de-defensas/load-balancing-detector" target="_blank" rel="noopener">Load Balancing Detector </a>
 
@@ -365,8 +360,6 @@ Extra<br>
 
 
 • <a href="https://www.infosecmatter.com/bug-bounty-tips/" target="_blank" rel="noopener">infosecmatter 7 categorias de bug bounty </a>
-
-• <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/canal_youtube_bug_bounty_muy_buenos.txt" target="_blank" rel="noopener">Canales de youtube varios </a>
 
 • <a href="https://0dayfans.com/" target="_blank" rel="noopener">0dayfans </a>
 
@@ -457,10 +450,7 @@ Extra<br>
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/tools_80_bug_bounty" target="_blank" rel="noopener">80 tools bug bounty  </a>
 
-
-
-
-• <a href="https://dojo-yeswehack.com/" target="_blank" rel="noopener">Consejos cortitos </a><br><br>
+<br><br>
 
 
 
