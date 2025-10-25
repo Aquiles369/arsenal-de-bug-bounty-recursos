@@ -280,6 +280,7 @@ Extra<br>
 
 • <a href="https://medium.com/search/users?q=bug+hunter" target="_blank" rel="noopener">Gente para seguir de Meduim que publican articulos bug bounty</a>
 
+• <a href="https://pentester.land/writeups/" target="_blank" rel="noopener">Pentester super completo</a>
 
 • <a href="https://hackerone.com/hacktivity/overview?queryString=sql+AND+asset_type%3A%28%22Domain%22%29+AND+severity_rating%3A%28%22Low%22+OR+%22Medium%22+OR+%22None%22+OR+%22High%22+OR+%22Critical%22%29+AND+disclosed%3Atrue&sortField=latest_disclosable_activity_at&sortDirection=DESC&pageIndex=1" target="_blank" rel="noopener">hackerone </a>
 
