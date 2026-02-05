@@ -11,7 +11,7 @@
 
 <picture> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  </picture>
 
- ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5xbTh2enIxaHc5YzNtdHh6Znc0M2F1eGJib3N5eTBuOGNwNWo2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qRcwVv2yEmy0VORK8n/giphy.gif" width = 75px>  </picture> Resumen técnico del repositorio — Bug Bounty Arsenal
+ ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5xbTh2enIxaHc5YzNtdHh6Znc0M2F1eGJib3N5eTBuOGNwNWo2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qRcwVv2yEmy0VORK8n/giphy.gif" width = 75px>  </picture> Resumen técnico del repositorio | Bug Bounty Arsenal
 
 <br>
 
