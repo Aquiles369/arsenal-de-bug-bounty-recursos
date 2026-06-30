@@ -221,6 +221,11 @@ Extra<br>
 
 • <a href="https://github.com/Aquiles369/arsenal-de-bug-bounty-recursos/blob/main/asset/sitios%20para%20encontrar%20info%20sensible.jpg" target="_blank" rel="noopener">sitios para encontrar info sensible.jpg</a>
 
+• <a href="https://bug-bounties.as93.net/#program-list" target="_blank" rel="noopener">Buscador de programas de bug bounty.  </a>
+
+• <a href="https://bountyhunte.rs/" target="_blank" rel="noopener">Buscador de programas de bug bounty 2. </a>
+
+
 
 • <a href="https://www.youtube.com/watch?v=v9TvVRwDIPA" target="_blank" rel="noopener">Ekoparty Security Conference</a><br><br>
 
